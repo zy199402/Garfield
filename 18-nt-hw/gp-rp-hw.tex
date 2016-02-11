@@ -1,0 +1,46 @@
+\documentclass{article}
+\usepackage{amssymb}
+\usepackage[english]{babel}
+\usepackage{amsmath}
+
+\begin{document}
+
+\begin{itemize}
+\item 4.3: Considering the representation of $\mathfrak{gl} (2, C)$ on the
+  basis $E = \wedge_{i = 1}^n e_i$, with $e_i$ a basis of $C^n$. Let $A \in
+  \mathfrak{gl} (2, C)$ and $A_{ij}$ are matrix coefficient of $A$. Then we
+  have
+  \[ AE = \sum_{j = 1}^n e_1 \wedge \ldots \wedge e_{j - 1} \wedge \sum A_{jk}
+     e_k \wedge e_{i + 1} \wedge \ldots \wedge e_n = \sum_{i = 1}^n A_{ii} E =
+     Tr (A) E \]
+  So the representation of $\mathfrak{gl} (2, C)$ on $\wedge^n C^n$ is the
+  trace map. For $\mathfrak{sl} (2, C)$ since the trace of the matrices are
+  0,
+  this representation is trivial.
+  
+\item 4.5(a) Consider the morphism $\phi$ from $V \otimes W^{\ast}$ to $Hom (W, V)$
+  by:
+  \[ \phi (v \otimes w^{\ast}) (h) = w^{\ast} (h) v \]
+  This morphism is an isomorphism in the meaning of linear map. We also have $\phi (g(v\otimes w^*))(h)=w^*(g^{-1}h)g(v)$. Hence if we define the action of $G$ on $Hom(W,V)$ by $g(s)(h)=g(s(g^{-1}h))$, then $\phi$ is a $G$-isomorphism. Notice
+\begin{displaymath}
+\begin{split}
+    Hom(W,V)^G &=\{s\in Hom(W,V)| \forall g\in G, h\in W, g(s(g^{-1}h))=s(h)\} \\
+    &=\{s \in Hom(W,V) | \forall g\in G, h\in W, s(gh)=g(s(h))\}
+\end{split}
+\end{displaymath}
+
+is just the $G$-homorphisms of $V$ and $W$. 
+
+Hence the $G$-invariant is 0 when $W$ and $V$ are not isomorphic and canonically isomorphic to C when $W$ and $V$ are isomorphic.
+
+\item 4.5(b) Let $W^*$ be a proper nonzero sub-representation of $V^*$, then $ker(W^*)$ is non-zero proper subspace of $V$ and also closed under the action of $\mathfrak{g}$, which is absurd! So $V^*$ is irreducible.
+
+And we regard the bilnear forms of $V$ as elements of $U=Hom(V, V^*)$, by the mapping $\phi$:
+$$(\phi(w)v)(x)=w(v,x)$$
+Then $h \in U$ is $\mathfrak{g}$-bilinear if and only if $h$ is a $\mathfrak{g}$ homomorphism. Hence it has dimension 0 or 1.
+\item 2.3 $\forall p\in G_1$, let $q=f(p)$. Then let $\bar{p}$ denote the diffemorphism $g\to pg$. Then $f\bar{p}=\bar{q}f$. So $f_*(p)\bar{p}_*(1)=\bar{q}_*(1)f_*(1)$. Notice that $\bar{p}_*(1)$,$\bar{q}_*(1)$ and $f_*(1)$ are isomorphisms. So $f_*(p)$ is also an isomorphism. So $f$ is a local diffemorphism.
+\item 2.2(a) Let $N$ be a discrete normal subgroup of $G$. Then $\forall h \in N$, the mapping $\phi_h: g \to ghg^{-1}$ is a continuous map with its image in $N$. Since its image is connected and contains $h$, $\phi_h(G)=\{h\}$. Hence $h$ is in the center of $G$.
+\item 2.2(b) $\pi_1(G)\simeq ker(\~{G}\to G)$ is normal, and is discrete since the covering map is a local diffemorphism.
+\end{itemize}
+
+\end{document}
