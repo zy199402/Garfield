@@ -1,0 +1,103 @@
+% --------------------------------------------------------------
+% This is all preamble stuff that you don't have to worry about.
+% Head down to where it says "Start here"
+% --------------------------------------------------------------
+ 
+\documentclass[12pt]{article}
+ 
+\usepackage[margin=1in]{geometry} 
+\usepackage{amsmath,amsthm,amssymb,tikz-cd,tikz,mathtools}
+ 
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+ 
+\newenvironment{theorem}[2][Theorem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{lemma}[2][Lemma]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{exercise}[2][Exercise]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{problem}[2][Problem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{question}[2][Question]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{corollary}[2][Corollary]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+ 
+\begin{document}
+ 
+% --------------------------------------------------------------
+%                         Start here
+% --------------------------------------------------------------
+ 
+\title{Weekly Homework 1}%replace X with the appropriate number
+\author{Yu Zhao\\ %replace with your name
+Algebraic geometry} %if necessary, replace with your course title
+ 
+\maketitle
+\begin{itemize}
+\item 1.
+  \begin{itemize}
+  \item (Define the presheaf $\mathcal{F}$). We define the presheaf 
+    $$\mathcal{F}(U)=\lim_{\mathclap {\substack{\rightarrow \\V \in \mathcal{B} \\ V \subseteq U}}} F(U)$$.
+
+    And the functor is defined naturally by the property of limit. Notice for $U$ in the base $\mathcal{F}(U)=F(U)$.
+  \item (Axiom1, Locality) $U_i$ is an open covering of an open set $U$, s.t ∈ $\mathcal{F}(U)$ are such that $s|U_i = t|U_i$ for each set $U_i$ of the covering, then we prove $s = t$;
+    \begin{enumerate}
+    \item (reduce to $U\in \mathcal{B}$). $s=t \Leftrightarrow s|V=t|V$ for all $V \in \mathcal{B}$. And the locality condition also holds foe $s|V, t|V$.Hence we can reduce $U$ to a set in the base.
+    \item(reduce $U_i$ to base) let $W_{ij}$ be a base cover of $U_i$, then $W_{ij}$ also forms a cover of $U$, and the locality condition holds for this cover.Hence we can reduce $U_{ij}$ to a set in the base.
+    \item(proof) Obvious, by finding a base cover of $U_{ij}$ and using the exact sequence.
+    \end{enumerate}
+  \item (Axiom 2, gluing lemma) If $U_i$ is an open covering of an open set $U$, and if for each $i$ a section $s_i \in \mathcal{F}(U_i)$ s.t $s_i|U_i\cap U_j = s_j|U_i\cap U_j$, then we prove there is a section $s \in \mathcal{F}(U)$ such that $s|U_i = s_i$ for each i. 
+    \begin{enumerate}
+    \item (reduce $U$ to base). The existence of $s$ is unique by axiom 1. Hence we prove that for every $V$ in base, there is a unique section $s_V \in \mathcal{F}(V)$ such that $s_V|V\cap U_i = s_i|V\cap U_i$ for each i. Then for $W \subset V$, $s_V|W=s_W$. Hence there is a section $S$ of $U$ s.t. $S_V=s_v$ by the property of limit. And it's easy to verify that $S$ satisfy the condition. Hence we reduce $U$ in the base.
+    \item (reduce $U_i$ to base) let $W_{ij}$ be a base cover of $U_{i}$ and $s_{ij}=s_i|W_{ij}$. Then $s_{ij}$ also satisfy gluing condition. And for $s$ glue them together, $s$ also glue $s_i$ by axiom 1. Hence we reduce $U_i$ to the base.
+    \item (Proof) Trivial, after finding a base cover $W_{ijk}$ of $U_i\cap U_j$ and using the exact sequence.
+    \end{enumerate}
+  \item (the morphisms of sheaves are induced by the compatible morphisms on the base). This part is obvious, just using the property of limit. 
+  \item(Remark). Another proof is based on the stalks. But it's not necessary since this lemma can be generalized with just the notion of open cover to more objects such as etale topology. 
+  \end{itemize}
+
+
+\item 2.Let $A$ be a local domain and $m$ its maximal ideal. Let $R=A^*$ and $S=A$ and then consider the map $f: X\to Y$ which maps $\{0\}$ to $m$ and notice $m \notin U$ for any proper openset $U\subseteq X$. So for defining the sheaf morphism, we only need to define the mapping $\mathcal{O}_Y(y)\rightarrow f_* \mathcal{O}_x(X)$ by the natural embedding of $R$ in $S$ which is obviously not a local ring homomorphism.
+\item 2.2.4 If $X$ is affine, this position holds. Otherwise,let $U_i$ be an open affine cover of $X$, let $V_{ijk}$ be open affine covers of $U_i\cap U_j$. Then the following diagram commutes:
+    
+
+\begin{tikzcd}
+  Hom(X,SpecA) \ar{r} \ar{d}{\alpha_x} & \prod Hom(U_i,Spec A) \ar[shift right=2]{r} \ar[shift left=2]{r} \ar{d}{\alpha_u} &  \prod Hom(V_{ijk},Spec A) \ar{d}{\alpha_v} \\
+  Hom(A,\Gamma(X,\mathcal{O}_X))\ar{r} & \prod Hom(A,\Gamma(U_i,\mathcal{O}_{U_i})) \ar[shift right=2]{r} \ar[shift left=2]{r} &\prod Hom(A,\Gamma(V_{ijk},\mathcal{O}_{V_{ij}}))\\
+\end{tikzcd}
+
+And the first row is exact because of the glueing lemma, the second arrow is exact because of the property of sheaves.
+
+Since $\alpha_u$ and $\alpha_v$ are isomorphisms, $\alpha_x$ is also an isomorphism.
+\item 2.2.8 Since $k[\epsilon]/(\epsilon^2)$ has only one point, we have $Mor(k[\epsilon]/(\epsilon^2),X) \simeq \{(x,f)| x\in X,\ f\in Hom(\mathcal{O}_x, k[\epsilon]/(\epsilon^2))\}$. And Notice for every local homomorphism $f\in Hom(\mathcal{O}_x, k[\epsilon]/(\epsilon^2))\}$, it will induce an residue homomorphism $k(x)\to k$, and notice $k(x)$ is a $k$-algebra, so $k(x)\simeq k$. And because $f(m_x^2)=0$, we have $Mor(k[\epsilon]/(\epsilon^2),X) \simeq \{(x,f)| x \ rational \ over \  X,\ f\in Hom(\mathcal{O}_x/m_x^2, k[\epsilon]/(\epsilon^2))\}$. For $f\in Hom(\mathcal{O}_x/m_x^2, k[\epsilon]/(\epsilon^2))\}$, $f(m_x)\in (\epsilon)$, which defines an vector space homomophism over $k$. On the otherhand if we have a vector space homomophism $f$ from $m_x/m_x^2$ to $k$, add the definition that $f(1)=1$, we define a vector space morphism from  $\mathcal{O}_x/m_x^2$,to $k[\epsilon]/(\epsilon^2)$, which is also a ring homomorphism.Hence we prove the conclusion.
+
+\item 2.2.12.\
+  \begin{enumerate}
+  \item (Topology of $X$). We define $X=\coprod X_i/\sim$. With $x~y$ if and only if $\exists{} i,j$, s.t. $x\in U_{ij}$, $y\in U_{ji}$ and $y=\phi_{ij}(x)$.
+    \begin{itemize}
+    \item $\sim$ is a equivalence relation by cocycle conditions.
+    \item The natural map $\Phi_i: X_i\to X$ is injective.
+    \item We define $U$ open in $X$ if and only if $U\cap X_i$ is open in $X_i$.
+    \item $\Phi_i$ is an open embedding, since for every $W$ open in $X_i$, $\Phi_j^{-1}(W)=\phi_{ij}(W \cap U_{ij})$.
+    \end{itemize}
+  \item (Sheaves on X) Here we can assume $U_{ij}=U_{ji}=X_i\cap X_j$. We define presheaf $F$, s.t 
+$$F(V)=\{(s_i \in \Gamma(V \cap X_i,\mathcal{O}_{V \cap X_i}))_{i\in I}|\  \phi_{ij}(s_i|_{V\cap X_i \cap X_j\}})=s_j|_{V\cap X_i \cap X_j}\}$$ and the restriction map defined on every term $i$.
+
+Thus for $V \subset X_i$ and $s \in \mathcal{O}_{x_i}(V)$, $(\phi_{ij}(s|_{V \cap X_I}))_{i \in I} \in F(V)$ by the cocycle condition. Hence the map $r$ from $s$ to $(\phi_{ij}(s|_{V \cap X_I}))_{i \in I}$ define a presheaf morphism of $O_{X_i}$ and $F|_{X_i}$. And it's really easy to verify that $r$ is in fact an isomorphism!
+
+Notice $s=t$ if and only if $s_i=t_i$ for all $i\in I$ and $F|_{X_i}$ are sheaves, the locality can be directedly checked by terms. For gluing axiom, let $\{V_\alpha\}$ form a cover of $V$ , and $s_\alpha$ is a bunch of sections matching on $V_{\alpha\beta}$, then $s_{\alpha_i}$ also match with each other, hence there exists $s_i$, s.t $s_i|_{V_\alpha \cap X_i}=s_{\alpha_i}$. And it's easy to check $(s_i)_{i\in I}$ is compatible with $\phi_{ij}$ and hence in $F(V)$. So the gluing property is proved. And the ring structure of $F$ can be naturally defined by terms.
+  \end{enumerate} 
+   
+
+  
+
+
+\end{itemize}
+ 
+% --------------------------------------------------------------
+%     You don't have to mess with anything below this line.
+% --------------------------------------------------------------
+ 
+\end{document}
