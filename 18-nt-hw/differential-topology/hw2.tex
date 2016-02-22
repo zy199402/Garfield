@@ -1,0 +1,45 @@
+\documentclass{article}
+\usepackage{amssymb}
+\usepackage[english]{babel}
+\usepackage{amsmath}
+
+\usepackage[margin=1in]{geometry} 
+\usepackage{amsmath,amsthm,amssymb,tikz-cd,tikz,mathtools}
+ 
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\C}{\mathbb{C}} 
+\renewcommand{\O}{\mathcal{O}} 
+\author{Yu Zhao}
+\title{Homework}
+\newenvironment{theorem}[2][Theorem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{lemma}[2][Lemma]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{exercise}[2][Exercise]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{problem}[2][Problem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{question}[2][Question]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{corollary}[2][Corollary]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+ 
+ 
+\begin{document}
+\maketitle{}
+\begin{itemize}
+\item
+  First, we prove that there exist $a_0<a \leq b <b_0$, s.t. $y \in (a_0, b_0)$ regular for $f$.If not, we assume $\{x_i\}$ are a sequence of critical values of $f$ with $f(x_i)\to a_0$. Notice $f$ is proper  then $f^{-1}[a_0-\epsilon, a_0]$ is bounded for $\epsilon>0$. Hence $x_i$ are bounded. So we can find a cauchy sequence of $\{x_i\}$, denoted by $\{y_i\}$, which converges to $y$, the  $f(y)=a_0$, which contradicts to the fact that the regular values form an open set.
+
+\item 
+  Second, we prove that there exists a vector field $Y$ in $\R^n$, s.t $\exists a_1, b_1$, s.t. $a_0<a_1<a\leq b<b_1<b_0$ and $\forall x\in f^{-1}[a_1,b_1]$, we have $Tf|_x(Y)=\frac{\partial}{\partial t}$.
+
+To prove this, for any $x\in f^{-1}(a_0,b_0)$, we can find a neighboorhood $U_x$ of $x$ with another local coordinate s.t. $f|U_x(x_1,x_2,\ldots,x_n)=x_1$. then let $Y_x=\frac{\partial}{\partial x_i}$.Then let $\phi_x$ a partition of unity of $Y_x$ on $f^{-1}(a_0,b_o)$. Then we have  $Y_1=\sum_x \phi_xY_x$ and $Tf|_x(Y_1)=\frac{\partial}{\partial t}$ for $\forall x\in f^{-1}(a_0,b_0)$. Extend $Y_1|f^{-1}[a_1,b_1]$ to a global vector field $Y$ on $\R^n$, then $Y$ satisfy the following condition.
+
+\item Let $\epsilon = min\{a-a_0,b_0-b\}$,then for $\forall 0<\delta <\epsilon$, $X_\delta f^{-1}(a)=f^{-1}(a+\delta)$ for all $a\in [a,b]$. And notice $X_t$ is an isomorphism for all $t$. Let $d=(b-a)/n$ for asufficient large integer $n$. Then $f^{-1}(b)=X_d^n(f^{-1}(a))$ and hence the conclusion is proved.
+\end{itemize}
+
+\end{document}

@@ -1,9 +1,12 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.6.12)  16 FEB 2016 23:00
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.8.12)  22 FEB 2016 11:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**/mit/zy199402/www/18-nt-hw/algebraic-geometry/hw-sn1.tex
-(/mit/zy199402/www/18-nt-hw/algebraic-geometry/hw-sn1.tex
+**/afs/athena.mit.edu/user/z/y/zy199402/www/18-nt-hw/algebraic-geometry/hw-sn1.
+tex
+
+(/afs/athena.mit.edu/user/z/y/zy199402/www/18-nt-hw/algebraic-geometry/hw-sn1.t
+ex
 LaTeX2e <2011/06/27>
 Babel <3.9h> and hyphenation patterns for 78 languages loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -441,18 +444,18 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 ) (./hw-sn1.aux)
 \openout1 = `hw-sn1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -546,30 +549,30 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Try loading font information for U+msa on input line 37.
+LaTeX Font Info:    Try loading font information for U+msa on input line 42.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 37.
+LaTeX Font Info:    Try loading font information for U+msb on input line 42.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 39.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 44.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 39.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 44.
 Missing character: There is no â in font cmr12!
 Missing character: There is no ˆ in font cmr12!
 Missing character: There is no ˆ in font cmr12!
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (55.06976pt too wide) in paragraph at lines 74--75
+Overfull \hbox (55.06976pt too wide) in paragraph at lines 79--81
 \OML/cmm/m/it/12 X;  f \OMS/cmsy/m/n/12 2 \OML/cmm/m/it/12 Hom\OT1/cmr/m/n/12 (
 \OMS/cmsy/m/n/12 O[]\OML/cmm/m/it/12 ; k\OT1/cmr/m/n/12 [\OML/cmm/m/it/12 ^^O\O
 T1/cmr/m/n/12 ]\OML/cmm/m/it/12 =\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 ^^O[]\OT1/cm
@@ -581,7 +584,7 @@ cmr/m/n/12 (\OMS/cmsy/m/n/12 O[]\OML/cmm/m/it/12 ; k\OT1/cmr/m/n/12 [\OML/cmm/m
  []
 
 
-Overfull \hbox (41.58939pt too wide) in paragraph at lines 74--75
+Overfull \hbox (41.58939pt too wide) in paragraph at lines 79--81
 \OML/cmm/m/it/12 k\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 ) \OMS/cms
 y/m/n/12 ' \OML/cmm/m/it/12 k$\OT1/cmr/m/n/12 . And be-cause $\OML/cmm/m/it/12 
 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 m[]\OT1/cmr/m/n/12 ) = 0$, we have $\OML/cmm
@@ -592,15 +595,20 @@ f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 m[]\OT1/cmr/m/n/12 ) = 0$, we have $\OML/cmm
 /it/12 x rational over X;  f \OMS/cmsy/m/n/12 2
  []
 
-[2] [3] (./hw-sn1.aux) ) 
+[2]
+Overfull \hbox (128.48395pt too wide) in paragraph at lines 127--128
+[][] 
+ []
+
+[3] [4] (./hw-sn1.aux) ) 
 Here is how much of TeX's memory you used:
- 12242 strings out of 493304
- 228228 string characters out of 6139871
- 288387 words of memory out of 5000000
- 15448 multiletter control sequences out of 15000+600000
+ 12317 strings out of 493304
+ 230132 string characters out of 6139871
+ 291412 words of memory out of 5000000
+ 15523 multiletter control sequences out of 15000+600000
  11490 words of font info for 45 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 62i,14n,73p,1047b,863s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,14n,73p,1043b,923s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi1
@@ -608,13 +616,15 @@ nts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
 /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on hw-sn1.pdf (3 pages, 115486 bytes).
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmsy8.pfb>
+Output written on hw-sn1.pdf (4 pages, 145103 bytes).
 PDF statistics:
- 57 PDF objects out of 1000 (max. 8388607)
- 41 compressed objects within 1 object stream
+ 68 PDF objects out of 1000 (max. 8388607)
+ 49 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

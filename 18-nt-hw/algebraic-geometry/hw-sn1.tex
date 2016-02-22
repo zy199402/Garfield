@@ -10,7 +10,12 @@
  
 \newcommand{\N}{\mathbb{N}}
 \newcommand{\Z}{\mathbb{Z}}
- 
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\oda}{\mathcal{O}} 
+\renewcommand{\O}{\mathcal{O}} 
+
 \newenvironment{theorem}[2][Theorem]{\begin{trivlist}
 \item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
 \newenvironment{lemma}[2][Lemma]{\begin{trivlist}
@@ -64,14 +69,15 @@ Algebraic geometry} %if necessary, replace with your course title
     
 
 \begin{tikzcd}
-  Hom(X,SpecA) \ar{r} \ar{d}{\alpha_x} & \prod Hom(U_i,Spec A) \ar[shift right=2]{r} \ar[shift left=2]{r} \ar{d}{\alpha_u} &  \prod Hom(V_{ijk},Spec A) \ar{d}{\alpha_v} \\
+  Hom(X,Spec \ A) \ar{r} \ar{d}{\alpha_x} & \prod Hom(U_i,Spec \  A) \ar[shift right=2]{r} \ar[shift left=2]{r} \ar{d}{\alpha_u} &  \prod Hom(V_{ijk},Spec \  A) \ar{d}{\alpha_v} \\
   Hom(A,\Gamma(X,\mathcal{O}_X))\ar{r} & \prod Hom(A,\Gamma(U_i,\mathcal{O}_{U_i})) \ar[shift right=2]{r} \ar[shift left=2]{r} &\prod Hom(A,\Gamma(V_{ijk},\mathcal{O}_{V_{ij}}))\\
 \end{tikzcd}
 
 And the first row is exact because of the glueing lemma, the second arrow is exact because of the property of sheaves.
 
 Since $\alpha_u$ and $\alpha_v$ are isomorphisms, $\alpha_x$ is also an isomorphism.
-\item 2.2.8 Since $k[\epsilon]/(\epsilon^2)$ has only one point, we have $Mor(k[\epsilon]/(\epsilon^2),X) \simeq \{(x,f)| x\in X,\ f\in Hom(\mathcal{O}_x, k[\epsilon]/(\epsilon^2))\}$. And Notice for every local homomorphism $f\in Hom(\mathcal{O}_x, k[\epsilon]/(\epsilon^2))\}$, it will induce an residue homomorphism $k(x)\to k$, and notice $k(x)$ is a $k$-algebra, so $k(x)\simeq k$. And because $f(m_x^2)=0$, we have $Mor(k[\epsilon]/(\epsilon^2),X) \simeq \{(x,f)| x \ rational \ over \  X,\ f\in Hom(\mathcal{O}_x/m_x^2, k[\epsilon]/(\epsilon^2))\}$. For $f\in Hom(\mathcal{O}_x/m_x^2, k[\epsilon]/(\epsilon^2))\}$, $f(m_x)\in (\epsilon)$, which defines an vector space homomophism over $k$. On the otherhand if we have a vector space homomophism $f$ from $m_x/m_x^2$ to $k$, add the definition that $f(1)=1$, we define a vector space morphism from  $\mathcal{O}_x/m_x^2$,to $k[\epsilon]/(\epsilon^2)$, which is also a ring homomorphism.Hence we prove the conclusion.
+\item 2.2.8 Since $k[\epsilon]/(\epsilon^2)$ has only one point, we have $Mor(k[\epsilon]/(\epsilon^2),X) \simeq \{(x,f)| x\in X,\ f\in Hom(\mathcal{O}_x, k[\epsilon]/(\epsilon^2))\}$. And Notice for every local homomorphism   $f\in Hom(\mathcal{O}_x, k[\epsilon]/(\epsilon^2))\}$, it will induce an residue homomorphism $k(x)\to k$, and notice $k(x)$ is a $k$-algebra, so $k(x)\simeq k$. And because $f(m_x^2)=0$, we have $Mor(k[\epsilon]/(\epsilon^2),X) \simeq \{(x,f)| x \ rational \ over \  X,\ f\in Hom(\mathcal{O}_x/m_x^2, k[\epsilon]/(\epsilon^2))\}$. For $f\in Hom(\mathcal{O}_x/m_x^2, k[\epsilon]/(\epsilon^2))\}$, $f(m_x)\in (\epsilon)$, which defines an vector space homomophism over $k$. On the otherhand if we have a vector space homomophism $f$ from $m_x/m_x^2$ to $k$, add the definition that $f(1)=1$, we define a vector space morphism from  $\mathcal{O}_x/m_x^2$,to $k[\epsilon]/(\epsilon^2)$, which is also a ring homomorphism. 
+Hence we prove the conclusion.
 
 \item 2.2.12.\
   \begin{enumerate}
@@ -90,12 +96,71 @@ Thus for $V \subset X_i$ and $s \in \mathcal{O}_{x_i}(V)$, $(\phi_{ij}(s|_{V \ca
 Notice $s=t$ if and only if $s_i=t_i$ for all $i\in I$ and $F|_{X_i}$ are sheaves, the locality can be directedly checked by terms. For gluing axiom, let $\{V_\alpha\}$ form a cover of $V$ , and $s_\alpha$ is a bunch of sections matching on $V_{\alpha\beta}$, then $s_{\alpha_i}$ also match with each other, hence there exists $s_i$, s.t $s_i|_{V_\alpha \cap X_i}=s_{\alpha_i}$. And it's easy to check $(s_i)_{i\in I}$ is compatible with $\phi_{ij}$ and hence in $F(V)$. So the gluing property is proved. And the ring structure of $F$ can be naturally defined by terms.
   \end{enumerate} 
    
+\item 2.16
+  \begin{itemize}
+  \item (a) $U\cap X_f=\{f\in U|f_x \notin m_x\} =\{f\in U| \bar{f}_x\notin m_x\}=D(\bar{f})$
 
+The fact that $X$ is covered by open affine subschemes induces that $X_f$ is open in $X$.
+
+\item (b)Let $U_i$ be an open affine cover of $X$, $i=1,2,3\ldots,n$ and $U_i=Spec \  R_i$.
+
+Then $a|X_f=0 \Leftrightarrow (a|_{U_i})|X_f\cap U_i=0$ for all $i \Leftrightarrow a|U_i=0$ as elements of $B_{i_f} \Leftrightarrow \exists l_i \in N$ s.t. $a|_{U_i}f|_{U_i}^{l_i}=0$ let $l$ be the max $l_i$, then $af^l|U_i=0$ and thus $af^l=0$
+
+\item (c)$b\in \Gamma(X_f,\mathcal{O_{X_f}})$ induce that $b|_{U_i\cap X_f} \in \Gamma(U_i \cap X_f,\mathcal{O}_{U_i}\cap X_f)=B_{i_f}$. Here we assume $U_i=Spec \  B_i$ and hence $\exists l_i$ s.t $b|_{U_i\cap X_f}=a_i/f^{l_i}$. Thus let $l$ be the max $l_i$ and let $c=bf^l$, then $\exists c_i \in B_i$ s.t $c|U_i \cap X_f=c_i|U_i \cap X_f$. 
+
+Notice $c|_{U_i \cap U_j \cap X_f}=c|_{U_i \cap U_j \cap X_f}=c|_{U_i \cap U_j \cap X_f}$. So $\exists \mu_{ij}$ s.t $c_if^{\mu_{ij}}=c_jf^{\mu_{ij}}$ on $U_i \cap U_j$. Then let $d_i=c_i f^\mu$ with $\mu$ be the max $\mu_{ij}$. Then $\exists d$ s.t. $d|U_i=d_i$ and hence $d|X_f= bf^{l+\mu}$
+\item Notice $f|U_i$ is a unit, assume $fg_i=1$ for $g_i \in U_i\cap X_f$. Then for any $V$ affine open in $U_i \cap U_j$ we have $f(g_i-g_j)=0$ in $V\cap X_f$. Hence $g_i$ coincides with $g_j$ on $U_i \cap U_j$. Let $g|U_i\cap X_f=g_i$.The $fg=1$ on $X_f$. Hence $f$ is a unit.
+
+Thus $S^{-1}f(id|X_f):\ A_f \to \Gamma(X_f, \mathcal{O}_{X_f})$ is well defined. This map is surjective by (c), and injective by (b), hence is an isomorphism.
+\end{itemize}
   
 
+\item 2.17
+  \begin{itemize}
+  \item (a) $f$ is obviously isomorphism in topology.
+
+For sheaf property. We notice that for $\forall U \subset Y$
+
+\begin{tikzcd}
+  0 \ar{r} &Hom(U,\oda_U) \ar{r} \ar{d}{\alpha_U} & \prod Hom(U_i,\oda_{U_i}) \ar[shift right=2]{r} \ar[shift left=2]{r} \ar{d}{\alpha_{U_i}} &  \prod Hom(U_i \cap U_j, \oda_{U_i \cap U_j}) \ar{d}{\alpha_v} \\
+ 0\ar{r} &  Hom(f^{-1}U,\oda_{f^{-1}(U))} \ar{r} & \prod Hom(f^{-1}U_i,\oda_{f^{-1}(U_i})) \ar[shift right=2]{r} \ar[shift left=2]{r}  &  \prod Hom(f^{-1}(U_i \cap U_j), \oda_{f^{-1}(U_i \cap U_j)}) 
+\end{tikzcd}
 
 \end{itemize}
- 
+
+Hence $\alpha_U$ is isomorphism since the other two are isomporphisms.
+
+\item(b)$id: \ A\to \Gamma(X,\oda_x)$ induce a morphism: $id_*: \ X \to Spec \  A$
+
+Notice $X_{f_i}=id_*^{-1}$ then $\cup X_{f_i}=id_*^{-1}(\cup D(f_i))=id_*^{-1}(Spec \  A)=X$, so $X_{f_i}$ form a cover of $X$.
+
+And $X_{f_i} \cap X_{f_j}$ is quasi-compact since it is $D(f_j)$ in $X_{f_i}$. So we only need to prove $\Gamma(X_{f_i}, \oda_{X_{f_i}})=A_{f_i}$, which has been proved in the previous problem.
+\item 3.1 We define the property P of affine open sets $V$ of $Y$ bo be the property that $f^{-1}(V)$ can be covered by open affine subsets $U_i=Spec \  A_J$ and $A_J$ finite generated over $B$.
+
+Then if $Spec \ A$ has the property, we have $f^{-1}(Spec  \ A_f)=\cup(Spec \ B_{i_f})$ and hence have the property. And notice that a finite type $Spec (A_f)$ algebra is also a $Spec \ A$ algebra, so this property is affine-local. Hence we prove this problem.
+\item 3.10 \begin{itemize}
+\item (a)First we reduce $Y$ to affine schemes. Let $X_i$ an affine open cover of $X$. then $p_2: \ X \times _Y Spec  \ k(y) \to f^{-1}(y)$ is an isomorphism if their restrictions on $X_i \times  _Y \ Spec  \ k(y)$ are isomorphisms. Hence we can assume $X$ affine.
+
+Now let $X=Spec \  B$, $Y=Spec \  A$, $y=Spec \ (A_p/pA_p)$ while $p$ is a prime ideal in $A$. Then $X_y=Spec \ (B_p/pB_p)$. $p_2$ is injective since it factors through $Spec \ (B_p)$ and those two map are both injective. $im(p_2)=\{ q\subset B|pB \subset q, \ p\subset q\cap A\}=\{q\in B|q \cap A=p\}=f^{-1}(p)$.
+
+So $p_2$ is bijective.
+
+And for $\forall t \in B_p$ and $t \notin pB_p$, then let $t_0=ts \in B$and $s \in A-p$.
+
+Then $D(t)=p_2^{-1}(D(t_0)\cap f^{-1}(y))$. Hence $p_2$ is open and hence is an isomorphism as topological spaces.
+
+\item (b)$Spec \ k[s,t]/(s-t^2) \times _{Spec \  k[s]} Spec  \ k[s]/s-a)=Spec  \ k[t]/(t^2-a)$
+
+For $a \neq 0$,$Spec  \ k[t]/(t^2-a)= \coprod Spec  \ k[t]/(t \pm \sqrt{a})$ has two points with residue $k$.
+
+For $a=0$, $ k[t]/(t^2)$ is a one-point but not reduced scheme.
+
+And $Spec \ k[s,t]/(s-t^2) \times _{Spec \  k[s]} Spec  \ k(s)= Spec  k(s,t)/(s-t^2)$ is the spectrum of a field with degree 2 extension over $k(s)=k(\xi)$.
+\end{itemize}
+\item 3.5(a) By 3.10, we can assume $Y=Spec \  K$ with $K$ a field, $X$ finite $K$ affine schbeme. For every irreducible component $X_i=Spec  \ R_i$. We have $R_i$ a finite $K$-algebra and hence an algebraic extension over $K$. So the point has only one point. SO $X$ has finite opints.
+\item 3.5(c) The constant map $Spec \  F_p[t] \to Spec  \ F_p$ is an example.
+
+\end{itemize} 
 % --------------------------------------------------------------
 %     You don't have to mess with anything below this line.
 % --------------------------------------------------------------

@@ -1,0 +1,4296 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=prv__region_ 2016.2.18)  18 FEB 2016 16:30
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**&prv__region_ _region_.tex
+(./_region_.tex
+LaTeX2e <2011/06/27>
+Babel <3.9h> and hyphenation patterns for 78 languages loaded.
+CUSTOMISED FORMAT. Preloaded files:
+        .
+ article.cls    2007/10/19 v1.4h Standard LaTeX document class
+  size12.clo    2007/10/19 v1.4h Standard LaTeX file (size option)
+geometry.sty    2010/09/12 v5.6 Page Geometry
+  keyval.sty    1999/03/16 v1.13 key=value parser (DPC)
+   ifpdf.sty    2011/01/30 v2.3 Provides the ifpdf switch (HO)
+  ifvtex.sty    2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+ ifxetex.sty    2010/09/12 v0.6 Provides ifxetex conditional
+ amsmath.sty    2013/01/14 v2.14 AMS math features
+ amstext.sty    2000/06/29 v2.01
+  amsgen.sty    1999/11/30 v2.0
+  amsbsy.sty    1999/11/29 v1.2d
+  amsopn.sty    1999/12/14 v2.01 operator names
+  amsthm.sty    2004/08/06 v2.20
+ amssymb.sty    2013/01/14 v3.01 AMS font symbols
+amsfonts.sty    2013/01/14 v3.01 Basic AMSFonts support
+ tikz-cd.sty    2012/12/30 v0.3c Commutative diagrams with tikz.
+    tikz.sty    2010/10/13 v2.10 (rcs-revision 1.76)
+     pgf.sty    2008/01/15 v2.10 (rcs-revision 1.12)
+  pgfrcs.sty    2010/10/25 v2.10 (rcs-revision 1.24)
+everyshi.sty    2001/05/15 v3.00 EveryShipout Package (MS)
+  pgfrcs.code.tex
+ pgfcore.sty    2010/04/11 v2.10 (rcs-revision 1.7)
+graphicx.sty    1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+graphics.sty    2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+    trig.sty    1999/03/16 v1.09 sin cos tan (DPC)
+graphics.cfg    2010/04/23 v1.9 graphics configuration of TeX Live
+   dvips.def    1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+  pgfsys.sty    2010/06/30 v2.10 (rcs-revision 1.37)
+  pgfsys.code.tex
+pgfsyssoftpath.code.tex    2008/07/18  (rcs-revision 1.7)
+pgfsysprotocol.code.tex    2006/10/16  (rcs-revision 1.4)
+  xcolor.sty    2007/01/21 v2.11 LaTeX color extensions (UK)
+   color.cfg    2007/01/18 v1.5 color configuration of teTeX/TeXLive
+ pgfcore.code.tex
+pgfcomp-version-0-65.sty    2007/07/03 v2.10 (rcs-revision 1.7)
+pgfcomp-version-1-18.sty    2007/07/23 v2.10 (rcs-revision 1.1)
+  pgffor.sty    2010/03/23 v2.10 (rcs-revision 1.18)
+ pgfkeys.sty    
+ pgfkeys.code.tex
+  pgffor.code.tex
+    tikz.code.tex
+mathtools.sty    2013/02/12 v1.13 mathematical typesetting tools
+    calc.sty    2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+ mhsetup.sty    2010/01/21 v1.2a programming setup (MH)
+    umsa.fd    2013/01/14 v3.01 AMS symbols A
+    umsb.fd    2013/01/14 v3.01 AMS symbols B
+        .
+(./_region_.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+ (/usr/share/texmf/tex/latex/preview/preview.sty
+Package: preview 2010/02/14 11.87 (AUCTeX/preview-latex)
+
+(/usr/share/texmf/tex/latex/preview/prtightpage.def
+\PreviewBorder=\dimen174
+)
+(/usr/share/texmf/tex/latex/preview/prauctex.def
+No auxiliary output files.
+
+
+\hbadness=\count126
+\hfuzz=\dimen175
+(/usr/share/texmf/tex/latex/preview/prauctex.cfg))
+(/usr/share/texmf/tex/latex/preview/prfootnotes.def)
+\pr@snippet=\count127
+\pr@box=\box37
+\pr@output=\toks36
+
+Preview: Fontsize 12pt
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: dvips
+*geometry* verbose mode - [ preamble ] result:
+* driver: dvips
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+ABD: EveryShipout initializing macros  !name(_region_.tex) !offset(-3) 
+ !name(hw-sn1.tex) !offset(-3) 
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 50.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 50.
+
+! Preview: Snippet 1 started.
+<-><->
+      
+l.52   \item (Define the presheaf $
+                                   \mathcal{F}$). We define the presheaf
+Not a real error.
+
+Preview: Tightpage -32891 -32891 32891 32891
+! Preview: Snippet 1 ended.(537394+0x643343).
+<-><->
+      
+l.52   \item (Define the presheaf $\mathcal{F}$
+                                               ). We define the presheaf
+Not a real error.
+
+[1]
+! Preview: Snippet 2 started.
+<-><->
+      
+l.53     $
+          $\mathcal{F}(U)=\lim_{\mathclap {\substack{\rightarrow \\V \in \ma...
+
+Not a real error.
+
+! Preview: Snippet 2 ended.(2354140+0x30785865).
+<-><->
+      
+l.53 ...\in \mathcal{B} \\ V \subseteq U}}} F(U)$$
+                                                  .
+Not a real error.
+
+[2]
+! Preview: Snippet 3 started.
+<-><->
+      
+l.55 ...lly by the property of limit. Notice for $
+                                                  U$ in the base $\mathcal{F...
+
+Not a real error.
+
+! Preview: Snippet 3 ended.(537395+0x605129).
+<-><->
+      
+l.55 ...y by the property of limit. Notice for $U$
+                                                   in the base $\mathcal{F}(...
+
+Not a real error.
+
+[3]
+! Preview: Snippet 4 started.
+<-><->
+      
+l.55 ...rty of limit. Notice for $U$ in the base $
+                                                  \mathcal{F}(U)=F(U)$.
+Not a real error.
+
+! Preview: Snippet 4 ended.(589824+196608x4692691).
+<-><->
+      
+l.55 ... for $U$ in the base $\mathcal{F}(U)=F(U)$
+                                                  .
+Not a real error.
+
+[4]
+! Preview: Snippet 5 started.
+<-><->
+      
+l.56   \item (Axiom1, Locality) $
+                                 U_i$ is an open covering of an open set $U$...
+
+Not a real error.
+
+! Preview: Snippet 5 ended.(537395+117964x745407).
+<-><->
+      
+l.56   \item (Axiom1, Locality) $U_i$
+                                      is an open covering of an open set $U$...
+
+Not a real error.
+
+[5]
+! Preview: Snippet 6 started.
+<-><->
+      
+l.56 ...$U_i$ is an open covering of an open set $
+                                                  U$, s.t âˆˆ $\mathcal{F}(U...
+
+Not a real error.
+
+! Preview: Snippet 6 ended.(537395+0x605129).
+<-><->
+      
+l.56 ..._i$ is an open covering of an open set $U$
+                                                  , s.t âˆˆ $\mathcal{F}(U)$...
+
+Not a real error.
+
+[6]
+Missing character: There is no â in font cmr12!
+Missing character: There is no ˆ in font cmr12!
+Missing character: There is no ˆ in font cmr12!
+
+! Preview: Snippet 7 started.
+<-><->
+      
+l.56 ...pen covering of an open set $U$, s.t âˆˆ $
+                                                  \mathcal{F}(U)$ are such t...
+
+Not a real error.
+
+! Preview: Snippet 7 ended.(589824+196608x1847392).
+<-><->
+      
+l.56 ... an open set $U$, s.t âˆˆ $\mathcal{F}(U)$
+                                                   are such that $s|U_i = t|...
+
+Not a real error.
+
+[7]
+! Preview: Snippet 8 started.
+<-><->
+      
+l.56 ..., s.t âˆˆ $\mathcal{F}(U)$ are such that $
+                                                  s|U_i = t|U_i$ for each se...
+
+Not a real error.
+
+! Preview: Snippet 8 ended.(589824+196608x3604333).
+<-><->
+      
+l.56 ...thcal{F}(U)$ are such that $s|U_i = t|U_i$
+                                                   for each set $U_i$ of the...
+
+Not a real error.
+
+[8]
+! Preview: Snippet 9 started.
+<-><->
+      
+l.56 ...e such that $s|U_i = t|U_i$ for each set $
+                                                  U_i$ of the covering, then...
+
+Not a real error.
+
+! Preview: Snippet 9 ended.(537395+117964x745407).
+<-><->
+      
+l.56 ...ch that $s|U_i = t|U_i$ for each set $U_i$
+                                                   of the covering, then we ...
+
+Not a real error.
+
+[9]
+! Preview: Snippet 10 started.
+<-><->
+      
+l.56 ...set $U_i$ of the covering, then we prove $
+                                                  s = t$;
+Not a real error.
+
+! Preview: Snippet 10 ended.(483719+0x1676611).
+<-><->
+      
+l.56 ..._i$ of the covering, then we prove $s = t$
+                                                  ;
+Not a real error.
+
+[10]
+! Preview: Snippet 11 started.
+<-><->
+      
+l.58     \item (reduce to $
+                           U\in \mathcal{B}$). $s=t \Leftrightarrow s|V=t|V$...
+
+Not a real error.
+
+! Preview: Snippet 11 ended.(537395+30747x2106771).
+<-><->
+      
+l.58     \item (reduce to $U\in \mathcal{B}$
+                                            ). $s=t \Leftrightarrow s|V=t|V$...
+
+Not a real error.
+
+[11]
+! Preview: Snippet 12 started.
+<-><->
+      
+l.58     \item (reduce to $U\in \mathcal{B}$). $
+                                                s=t \Leftrightarrow s|V=t|V$...
+
+Not a real error.
+
+! Preview: Snippet 12 ended.(589824+196608x6253538).
+<-><->
+      
+l.58 ...athcal{B}$). $s=t \Leftrightarrow s|V=t|V$
+                                                   for all $V \in \mathcal{B...
+
+Not a real error.
+
+[12]
+! Preview: Snippet 13 started.
+<-><->
+      
+l.58 ...). $s=t \Leftrightarrow s|V=t|V$ for all $
+                                                  V \in \mathcal{B}$. And th...
+
+Not a real error.
+
+! Preview: Snippet 13 ended.(537395+30747x2121679).
+<-><->
+      
+l.58 ...arrow s|V=t|V$ for all $V \in \mathcal{B}$
+                                                  . And the locality conditi...
+
+Not a real error.
+
+[13]
+! Preview: Snippet 14 started.
+<-><->
+      
+l.58 ...nd the locality condition also holds foe $
+                                                  s|V, t|V$.Hence we can red...
+
+Not a real error.
+
+! Preview: Snippet 14 ended.(589824+196608x2534403).
+<-><->
+      
+l.58 ...cality condition also holds foe $s|V, t|V$
+                                                  .Hence we can reduce $U$ t...
+
+Not a real error.
+
+[14]
+! Preview: Snippet 15 started.
+<-><->
+      
+l.58 ...holds foe $s|V, t|V$.Hence we can reduce $
+                                                  U$ to a set in the base.
+Not a real error.
+
+! Preview: Snippet 15 ended.(537395+0x605129).
+<-><->
+      
+l.58 ...lds foe $s|V, t|V$.Hence we can reduce $U$
+                                                   to a set in the base.
+Not a real error.
+
+[15]
+! Preview: Snippet 16 started.
+<-><->
+      
+l.59     \item(reduce $
+                       U_i$ to base) let $W_{ij}$ be a base cover of $U_i$, ...
+
+Not a real error.
+
+! Preview: Snippet 16 ended.(537395+117964x745407).
+<-><->
+      
+l.59     \item(reduce $U_i$
+                            to base) let $W_{ij}$ be a base cover of $U_i$, ...
+
+Not a real error.
+
+[16]
+! Preview: Snippet 17 started.
+<-><->
+      
+l.59     \item(reduce $U_i$ to base) let $
+                                          W_{ij}$ be a base cover of $U_i$, ...
+
+Not a real error.
+
+! Preview: Snippet 17 ended.(537395+219909x1204911).
+<-><->
+      
+l.59     \item(reduce $U_i$ to base) let $W_{ij}$
+                                                  be a base cover of $U_i$, ...
+
+Not a real error.
+
+[17]
+! Preview: Snippet 18 started.
+<-><->
+      
+l.59 ...to base) let $W_{ij}$ be a base cover of $
+                                                  U_i$, then $W_{ij}$ also f...
+
+Not a real error.
+
+! Preview: Snippet 18 ended.(537395+117964x745407).
+<-><->
+      
+l.59 ...ase) let $W_{ij}$ be a base cover of $U_i$
+                                                  , then $W_{ij}$ also forms...
+
+Not a real error.
+
+[18]
+! Preview: Snippet 19 started.
+<-><->
+      
+l.59 ... $W_{ij}$ be a base cover of $U_i$, then $
+                                                  W_{ij}$ also forms a cover...
+
+Not a real error.
+
+! Preview: Snippet 19 ended.(537395+219909x1204911).
+<-><->
+      
+l.59 ...}$ be a base cover of $U_i$, then $W_{ij}$
+                                                   also forms a cover of $U$...
+
+Not a real error.
+
+[19]
+! Preview: Snippet 20 started.
+<-><->
+      
+l.59 ..._i$, then $W_{ij}$ also forms a cover of $
+                                                  U$, and the locality condi...
+
+Not a real error.
+
+! Preview: Snippet 20 ended.(537395+0x605129).
+<-><->
+      
+l.59 ...$, then $W_{ij}$ also forms a cover of $U$
+                                                  , and the locality conditi...
+
+Not a real error.
+
+[20]
+! Preview: Snippet 21 started.
+<-><->
+      
+l.59 ...holds for this cover.Hence we can reduce $
+                                                  U_{ij}$ to a set in the base.
+
+Not a real error.
+
+! Preview: Snippet 21 ended.(537395+219909x1000905).
+<-><->
+      
+l.59 ...or this cover.Hence we can reduce $U_{ij}$
+                                                   to a set in the base.
+Not a real error.
+
+[21]
+! Preview: Snippet 22 started.
+<-><->
+      
+l.60 ...oof) Obvious, by finding a base cover of $
+                                                  U_{ij}$ and using the exac...
+
+Not a real error.
+
+! Preview: Snippet 22 ended.(537395+219909x1000905).
+<-><->
+      
+l.60 ...vious, by finding a base cover of $U_{ij}$
+                                                   and using the exact seque...
+
+Not a real error.
+
+[22]
+! Preview: Snippet 23 started.
+<-><->
+      
+l.62   \item (Axiom 2, gluing lemma) If $
+                                         U_i$ is an open covering of an open...
+
+Not a real error.
+
+! Preview: Snippet 23 ended.(537395+117964x745407).
+<-><->
+      
+l.62   \item (Axiom 2, gluing lemma) If $U_i$
+                                              is an open covering of an open...
+
+Not a real error.
+
+[23]
+! Preview: Snippet 24 started.
+<-><->
+      
+l.62 ...$U_i$ is an open covering of an open set $
+                                                  U$, and if for each $i$ a ...
+
+Not a real error.
+
+! Preview: Snippet 24 ended.(537395+0x605129).
+<-><->
+      
+l.62 ..._i$ is an open covering of an open set $U$
+                                                  , and if for each $i$ a se...
+
+Not a real error.
+
+[24]
+! Preview: Snippet 25 started.
+<-><->
+      
+l.62 ...ring of an open set $U$, and if for each $
+                                                  i$ a section $s_i \in \mat...
+
+Not a real error.
+
+! Preview: Snippet 25 ended.(515577+0x262695).
+<-><->
+      
+l.62 ...ng of an open set $U$, and if for each $i$
+                                                   a section $s_i \in \mathc...
+
+Not a real error.
+
+[25]
+! Preview: Snippet 26 started.
+<-><->
+      
+l.62 ...n set $U$, and if for each $i$ a section $
+                                                  s_i \in \mathcal{F}(U_i)$ ...
+
+Not a real error.
+
+! Preview: Snippet 26 ended.(589824+196608x3534006).
+<-><->
+      
+l.62 ...h $i$ a section $s_i \in \mathcal{F}(U_i)$
+                                                   s.t $s_i|U_i\cap U_j = s_...
+
+Not a real error.
+
+[26]
+! Preview: Snippet 27 started.
+<-><->
+      
+l.62 ...a section $s_i \in \mathcal{F}(U_i)$ s.t $
+                                                  s_i|U_i\cap U_j = s_j|U_i\...
+
+Not a real error.
+
+! Preview: Snippet 27 ended.(589824+219909x7569788).
+<-><->
+      
+l.62 ...)$ s.t $s_i|U_i\cap U_j = s_j|U_i\cap U_j$
+                                                  , then we prove there is a...
+
+Not a real error.
+
+[27]
+! Preview: Snippet 28 started.
+<-><->
+      
+l.62 ...p U_j$, then we prove there is a section $
+                                                  s \in \mathcal{F}(U)$ such...
+
+Not a real error.
+
+! Preview: Snippet 28 ended.(589824+196608x3171302).
+<-><->
+      
+l.62 ... there is a section $s \in \mathcal{F}(U)$
+                                                   such that $s|U_i = s_i$ f...
+
+Not a real error.
+
+[28]
+! Preview: Snippet 29 started.
+<-><->
+      
+l.62 ...section $s \in \mathcal{F}(U)$ such that $
+                                                  s|U_i = s_i$ for each i.
+Not a real error.
+
+! Preview: Snippet 29 ended.(589824+196608x2947549).
+<-><->
+      
+l.62 ...in \mathcal{F}(U)$ such that $s|U_i = s_i$
+                                                   for each i.
+Not a real error.
+
+[29]
+! Preview: Snippet 30 started.
+<-><->
+      
+l.64     \item (reduce $
+                        U$ to base). The existence of $s$ is unique by axiom...
+
+Not a real error.
+
+! Preview: Snippet 30 ended.(537395+0x605129).
+<-><->
+      
+l.64     \item (reduce $U$
+                           to base). The existence of $s$ is unique by axiom...
+
+Not a real error.
+
+[30]
+! Preview: Snippet 31 started.
+<-><->
+      
+l.64 ...m (reduce $U$ to base). The existence of $
+                                                  s$ is unique by axiom 1. H...
+
+Not a real error.
+
+! Preview: Snippet 31 ended.(338603+0x362721).
+<-><->
+      
+l.64 ...(reduce $U$ to base). The existence of $s$
+                                                   is unique by axiom 1. Hen...
+
+Not a real error.
+
+[31]
+! Preview: Snippet 32 started.
+<-><->
+      
+l.64 ...y axiom 1. Hence we prove that for every $
+                                                  V$ in base, there is a uni...
+
+Not a real error.
+
+! Preview: Snippet 32 ended.(537395+0x620037).
+<-><->
+      
+l.64 ...axiom 1. Hence we prove that for every $V$
+                                                   in base, there is a uniqu...
+
+Not a real error.
+
+[32]
+! Preview: Snippet 33 started.
+<-><->
+      
+l.64 ...y $V$ in base, there is a unique section $
+                                                  s_V \in \mathcal{F}(V)$ su...
+
+Not a real error.
+
+! Preview: Snippet 33 ended.(589824+196608x3667178).
+<-><->
+      
+l.64 ... a unique section $s_V \in \mathcal{F}(V)$
+                                                   such that $s_V|V\cap U_i ...
+
+Not a real error.
+
+[33]
+! Preview: Snippet 34 started.
+<-><->
+      
+l.64 ...ction $s_V \in \mathcal{F}(V)$ such that $
+                                                  s_V|V\cap U_i = s_i|V\cap ...
+
+Not a real error.
+
+! Preview: Snippet 34 ended.(589824+196608x7380070).
+<-><->
+      
+l.64 ... such that $s_V|V\cap U_i = s_i|V\cap U_i$
+                                                   for each i. Then for $W \...
+
+Not a real error.
+
+[34]
+! Preview: Snippet 35 started.
+<-><->
+      
+l.64 ..._i = s_i|V\cap U_i$ for each i. Then for $
+                                                  W \subset V$, $s_V|W=s_W$....
+
+Not a real error.
+
+! Preview: Snippet 35 ended.(537395+30747x2502545).
+<-><->
+      
+l.64 ...ap U_i$ for each i. Then for $W \subset V$
+                                                  , $s_V|W=s_W$. Hence there...
+
+Not a real error.
+
+[35]
+! Preview: Snippet 36 started.
+<-><->
+      
+l.64 ...U_i$ for each i. Then for $W \subset V$, $
+                                                  s_V|W=s_W$. Hence there is...
+
+Not a real error.
+
+! Preview: Snippet 36 ended.(589824+196608x3930329).
+<-><->
+      
+l.64 ...ach i. Then for $W \subset V$, $s_V|W=s_W$
+                                                  . Hence there is a section...
+
+Not a real error.
+
+[36]
+! Preview: Snippet 37 started.
+<-><->
+      
+l.64 ...$, $s_V|W=s_W$. Hence there is a section $
+                                                  S$ of $U$ s.t. $S_V=s_v$ b...
+
+Not a real error.
+
+! Preview: Snippet 37 ended.(537395+0x519368).
+<-><->
+      
+l.64 ... $s_V|W=s_W$. Hence there is a section $S$
+                                                   of $U$ s.t. $S_V=s_v$ by ...
+
+Not a real error.
+
+[37]
+! Preview: Snippet 38 started.
+<-><->
+      
+l.64 ...|W=s_W$. Hence there is a section $S$ of $
+                                                  U$ s.t. $S_V=s_v$ by the p...
+
+Not a real error.
+
+! Preview: Snippet 38 ended.(537395+0x605129).
+<-><->
+      
+l.64 ...=s_W$. Hence there is a section $S$ of $U$
+                                                   s.t. $S_V=s_v$ by the pro...
+
+Not a real error.
+
+[38]
+! Preview: Snippet 39 started.
+<-><->
+      
+l.64 ...Hence there is a section $S$ of $U$ s.t. $
+                                                  S_V=s_v$ by the property o...
+
+Not a real error.
+
+! Preview: Snippet 39 ended.(537395+117964x2675923).
+<-><->
+      
+l.64 ...ere is a section $S$ of $U$ s.t. $S_V=s_v$
+                                                   by the property of limit....
+
+Not a real error.
+
+[39]
+! Preview: Snippet 40 started.
+<-><->
+      
+l.64 ...y of limit. And it's easy to verify that $
+                                                  S$ satisfy the condition. ...
+
+Not a real error.
+
+! Preview: Snippet 40 ended.(537395+0x519368).
+<-><->
+      
+l.64 ...of limit. And it's easy to verify that $S$
+                                                   satisfy the condition. He...
+
+Not a real error.
+
+[40]
+! Preview: Snippet 41 started.
+<-><->
+      
+l.64 ...$ satisfy the condition. Hence we reduce $
+                                                  U$ in the base.
+Not a real error.
+
+! Preview: Snippet 41 ended.(537395+0x605129).
+<-><->
+      
+l.64 ...satisfy the condition. Hence we reduce $U$
+                                                   in the base.
+Not a real error.
+
+[41]
+! Preview: Snippet 42 started.
+<-><->
+      
+l.65     \item (reduce $
+                        U_i$ to base) let $W_{ij}$ be a base cover of $U_{i}...
+
+Not a real error.
+
+! Preview: Snippet 42 ended.(537395+117964x745407).
+<-><->
+      
+l.65     \item (reduce $U_i$
+                             to base) let $W_{ij}$ be a base cover of $U_{i}...
+
+Not a real error.
+
+[42]
+! Preview: Snippet 43 started.
+<-><->
+      
+l.65     \item (reduce $U_i$ to base) let $
+                                           W_{ij}$ be a base cover of $U_{i}...
+
+Not a real error.
+
+! Preview: Snippet 43 ended.(537395+219909x1204911).
+<-><->
+      
+l.65     \item (reduce $U_i$ to base) let $W_{ij}$
+                                                   be a base cover of $U_{i}...
+
+Not a real error.
+
+[43]
+! Preview: Snippet 44 started.
+<-><->
+      
+l.65 ...to base) let $W_{ij}$ be a base cover of $
+                                                  U_{i}$ and $s_{ij}=s_i|W_{...
+
+Not a real error.
+
+! Preview: Snippet 44 ended.(537395+117964x745407).
+<-><->
+      
+l.65 ...e) let $W_{ij}$ be a base cover of $U_{i}$
+                                                   and $s_{ij}=s_i|W_{ij}$. ...
+
+Not a real error.
+
+[44]
+! Preview: Snippet 45 started.
+<-><->
+      
+l.65 ... $W_{ij}$ be a base cover of $U_{i}$ and $
+                                                  s_{ij}=s_i|W_{ij}$. Then $...
+
+Not a real error.
+
+! Preview: Snippet 45 ended.(589824+219909x3884977).
+<-><->
+      
+l.65 ...e cover of $U_{i}$ and $s_{ij}=s_i|W_{ij}$
+                                                  . Then $s_{ij}$ also satis...
+
+Not a real error.
+
+[45]
+! Preview: Snippet 46 started.
+<-><->
+      
+l.65 ...of $U_{i}$ and $s_{ij}=s_i|W_{ij}$. Then $
+                                                  s_{ij}$ also satisfy gluin...
+
+Not a real error.
+
+! Preview: Snippet 46 ended.(338603+219909x840645).
+<-><->
+      
+l.65 ...i}$ and $s_{ij}=s_i|W_{ij}$. Then $s_{ij}$
+                                                   also satisfy gluing condi...
+
+Not a real error.
+
+[46]
+! Preview: Snippet 47 started.
+<-><->
+      
+l.65 ...$ also satisfy gluing condition. And for $
+                                                  s$ glue them together, $s$...
+
+Not a real error.
+
+! Preview: Snippet 47 ended.(338603+0x362721).
+<-><->
+      
+l.65 ...also satisfy gluing condition. And for $s$
+                                                   glue them together, $s$ a...
+
+Not a real error.
+
+[47]
+! Preview: Snippet 48 started.
+<-><->
+      
+l.65 ...ndition. And for $s$ glue them together, $
+                                                  s$ also glue $s_i$ by axio...
+
+Not a real error.
+
+! Preview: Snippet 48 ended.(338603+0x362721).
+<-><->
+      
+l.65 ...ition. And for $s$ glue them together, $s$
+                                                   also glue $s_i$ by axiom ...
+
+Not a real error.
+
+[48]
+! Preview: Snippet 49 started.
+<-><->
+      
+l.65 ...or $s$ glue them together, $s$ also glue $
+                                                  s_i$ by axiom 1. Hence we ...
+
+Not a real error.
+
+! Preview: Snippet 49 ended.(338603+117964x585147).
+<-><->
+      
+l.65 ...s$ glue them together, $s$ also glue $s_i$
+                                                   by axiom 1. Hence we redu...
+
+Not a real error.
+
+[49]
+! Preview: Snippet 50 started.
+<-><->
+      
+l.65 ...o glue $s_i$ by axiom 1. Hence we reduce $
+                                                  U_i$ to the base.
+Not a real error.
+
+! Preview: Snippet 50 ended.(537395+117964x745407).
+<-><->
+      
+l.65 ...ue $s_i$ by axiom 1. Hence we reduce $U_i$
+                                                   to the base.
+Not a real error.
+
+[50]
+! Preview: Snippet 51 started.
+<-><->
+      
+l.66 ...oof) Trivial, after finding a base cover $
+                                                  W_{ijk}$ of $U_i\cap U_j$ ...
+
+Not a real error.
+
+! Preview: Snippet 51 ended.(537395+219909x1508929).
+<-><->
+      
+l.66 ...vial, after finding a base cover $W_{ijk}$
+                                                   of $U_i\cap U_j$ and usin...
+
+Not a real error.
+
+[51]
+! Preview: Snippet 52 started.
+<-><->
+      
+l.66 ... after finding a base cover $W_{ijk}$ of $
+                                                  U_i\cap U_j$ and using the...
+
+Not a real error.
+
+! Preview: Snippet 52 ended.(537395+219909x2430463).
+<-><->
+      
+l.66 ...ng a base cover $W_{ijk}$ of $U_i\cap U_j$
+                                                   and using the exact seque...
+
+Not a real error.
+
+[52]
+! Preview: Snippet 53 started.
+<-><->
+      
+l.73 \item 2.Let $
+                  A$ be a local domain and $m$ its maximal ideal. Let $R=A^*...
+
+Not a real error.
+
+! Preview: Snippet 53 ended.(537395+0x577257).
+<-><->
+      
+l.73 \item 2.Let $A$
+                     be a local domain and $m$ its maximal ideal. Let $R=A^*...
+
+Not a real error.
+
+[53]
+! Preview: Snippet 54 started.
+<-><->
+      
+l.73 \item 2.Let $A$ be a local domain and $
+                                            m$ its maximal ideal. Let $R=A^*...
+
+Not a real error.
+
+! Preview: Snippet 54 ended.(338603+0x673557).
+<-><->
+      
+l.73 \item 2.Let $A$ be a local domain and $m$
+                                               its maximal ideal. Let $R=A^*...
+
+Not a real error.
+
+[54]
+! Preview: Snippet 55 started.
+<-><->
+      
+l.73 ...al domain and $m$ its maximal ideal. Let $
+                                                  R=A^*$ and $S=A$ and then ...
+
+Not a real error.
+
+! Preview: Snippet 55 ended.(537395+0x2516973).
+<-><->
+      
+l.73 ...ain and $m$ its maximal ideal. Let $R=A^*$
+                                                   and $S=A$ and then consid...
+
+Not a real error.
+
+[55]
+! Preview: Snippet 56 started.
+<-><->
+      
+l.73 ...d $m$ its maximal ideal. Let $R=A^*$ and $
+                                                  S=A$ and then consider the...
+
+Not a real error.
+
+! Preview: Snippet 56 ended.(537395+0x2132445).
+<-><->
+      
+l.73 ...$ its maximal ideal. Let $R=A^*$ and $S=A$
+                                                   and then consider the map...
+
+Not a real error.
+
+[56]
+! Preview: Snippet 57 started.
+<-><->
+      
+l.73 ...A^*$ and $S=A$ and then consider the map $
+                                                  f: X\to Y$ which maps $\{0...
+
+Not a real error.
+
+! Preview: Snippet 57 ended.(546132+152916x3656470).
+<-><->
+      
+l.73 ...S=A$ and then consider the map $f: X\to Y$
+                                                   which maps $\{0\}$ to $m$...
+
+Not a real error.
+
+[57]
+! Preview: Snippet 58 started.
+<-><->
+      
+l.73 ... consider the map $f: X\to Y$ which maps $
+                                                  \{0\}$ to $m$ and notice $...
+
+Not a real error.
+
+! Preview: Snippet 58 ended.(589824+196608x1171454).
+<-><->
+      
+l.73 ...der the map $f: X\to Y$ which maps $\{0\}$
+                                                   to $m$ and notice $m \not...
+
+Not a real error.
+
+[58]
+! Preview: Snippet 59 started.
+<-><->
+      
+l.73 ...he map $f: X\to Y$ which maps $\{0\}$ to $
+                                                  m$ and notice $m \notin U$...
+
+Not a real error.
+
+! Preview: Snippet 59 ended.(338603+0x673557).
+<-><->
+      
+l.73 ... map $f: X\to Y$ which maps $\{0\}$ to $m$
+                                                   and notice $m \notin U$ f...
+
+Not a real error.
+
+[59]
+! Preview: Snippet 60 started.
+<-><->
+      
+l.73 ... Y$ which maps $\{0\}$ to $m$ and notice $
+                                                  m \notin U$ for any proper...
+
+Not a real error.
+
+! Preview: Snippet 60 ended.(589824+30747x2239875).
+<-><->
+      
+l.73 ...aps $\{0\}$ to $m$ and notice $m \notin U$
+                                                   for any proper openset $U...
+
+Not a real error.
+
+[60]
+! Preview: Snippet 61 started.
+<-><->
+      
+l.73 ...tice $m \notin U$ for any proper openset $
+                                                  U\subseteq X$. So for defi...
+
+Not a real error.
+
+! Preview: Snippet 61 ended.(537395+106932x2354611).
+<-><->
+      
+l.73 ...n U$ for any proper openset $U\subseteq X$
+                                                  . So for defining the shea...
+
+Not a real error.
+
+[61]
+! Preview: Snippet 62 started.
+<-><->
+      
+l.73 ...hism, we only need to define the mapping $
+                                                  \mathcal{O}_Y(y)\rightarro...
+
+Not a real error.
+
+! Preview: Snippet 62 ended.(589824+196608x6294566).
+<-><->
+      
+l.73 ...l{O}_Y(y)\rightarrow f_* \mathcal{O}_x(X)$
+                                                   by the natural embedding ...
+
+Not a real error.
+
+[62]
+! Preview: Snippet 63 started.
+<-><->
+      
+l.73 ...cal{O}_x(X)$ by the natural embedding of $
+                                                  R$ in $S$ which is obvious...
+
+Not a real error.
+
+! Preview: Snippet 63 ended.(537395+0x592596).
+<-><->
+      
+l.73 ...l{O}_x(X)$ by the natural embedding of $R$
+                                                   in $S$ which is obviously...
+
+Not a real error.
+
+[63]
+! Preview: Snippet 64 started.
+<-><->
+      
+l.73 ...x(X)$ by the natural embedding of $R$ in $
+                                                  S$ which is obviously not ...
+
+Not a real error.
+
+! Preview: Snippet 64 ended.(537395+0x519368).
+<-><->
+      
+l.73 ...X)$ by the natural embedding of $R$ in $S$
+                                                   which is obviously not a ...
+
+Not a real error.
+
+[64]
+! Preview: Snippet 65 started.
+<-><->
+      
+l.74 \item 2.2.4 If $
+                     X$ is affine, this position holds. Otherwise,let $U_i$ ...
+
+Not a real error.
+
+! Preview: Snippet 65 ended.(537395+0x700911).
+<-><->
+      
+l.74 \item 2.2.4 If $X$
+                        is affine, this position holds. Otherwise,let $U_i$ ...
+
+Not a real error.
+
+[65]
+! Preview: Snippet 66 started.
+<-><->
+      
+l.74 ...fine, this position holds. Otherwise,let $
+                                                  U_i$ be an open affine cov...
+
+Not a real error.
+
+! Preview: Snippet 66 ended.(537395+117964x745407).
+<-><->
+      
+l.74 ..., this position holds. Otherwise,let $U_i$
+                                                   be an open affine cover o...
+
+Not a real error.
+
+[66]
+! Preview: Snippet 67 started.
+<-><->
+      
+l.74 ...ise,let $U_i$ be an open affine cover of $
+                                                  X$, let $V_{ijk}$ be open ...
+
+Not a real error.
+
+! Preview: Snippet 67 ended.(537395+0x700911).
+<-><->
+      
+l.74 ...e,let $U_i$ be an open affine cover of $X$
+                                                  , let $V_{ijk}$ be open af...
+
+Not a real error.
+
+[67]
+! Preview: Snippet 68 started.
+<-><->
+      
+l.74 ...U_i$ be an open affine cover of $X$, let $
+                                                  V_{ijk}$ be open affine co...
+
+Not a real error.
+
+! Preview: Snippet 68 ended.(537395+219909x1230859).
+<-><->
+      
+l.74 ...an open affine cover of $X$, let $V_{ijk}$
+                                                   be open affine covers of ...
+
+Not a real error.
+
+[68]
+! Preview: Snippet 69 started.
+<-><->
+      
+l.74 ..., let $V_{ijk}$ be open affine covers of $
+                                                  U_i\cap U_j$. Then the fol...
+
+Not a real error.
+
+! Preview: Snippet 69 ended.(537395+219909x2430463).
+<-><->
+      
+l.74 ...k}$ be open affine covers of $U_i\cap U_j$
+                                                  . Then the following diagr...
+
+Not a real error.
+
+[69]
+! Preview: Snippet 70 started.
+<-><->
+      
+l.84 Since $
+            \alpha_u$ and $\alpha_v$ are isomorphisms, $\alpha_x$ is also an...
+
+Not a real error.
+
+! Preview: Snippet 70 ended.(338603+117964x845079).
+<-><->
+      
+l.84 Since $\alpha_u$
+                      and $\alpha_v$ are isomorphisms, $\alpha_x$ is also an...
+
+Not a real error.
+
+[70]
+! Preview: Snippet 71 started.
+<-><->
+      
+l.84 Since $\alpha_u$ and $
+                           \alpha_v$ are isomorphisms, $\alpha_x$ is also an...
+
+Not a real error.
+
+! Preview: Snippet 71 ended.(338603+117964x812614).
+<-><->
+      
+l.84 Since $\alpha_u$ and $\alpha_v$
+                                     are isomorphisms, $\alpha_x$ is also an...
+
+Not a real error.
+
+[71]
+! Preview: Snippet 72 started.
+<-><->
+      
+l.84 ...lpha_u$ and $\alpha_v$ are isomorphisms, $
+                                                  \alpha_x$ is also an isomo...
+
+Not a real error.
+
+! Preview: Snippet 72 ended.(338603+117964x836128).
+<-><->
+      
+l.84 ...nd $\alpha_v$ are isomorphisms, $\alpha_x$
+                                                   is also an isomorphism.
+Not a real error.
+
+[72]
+! Preview: Snippet 73 started.
+<-><->
+      
+l.85 \item 2.2.8 Since $
+                        k[\epsilon]/(\epsilon^2)$ has only one point, we hav...
+
+Not a real error.
+
+! Preview: Snippet 73 ended.(623265+196608x2771789).
+<-><->
+      
+l.85 \item 2.2.8 Since $k[\epsilon]/(\epsilon^2)$
+                                                  has only one point, we hav...
+
+Not a real error.
+
+[73]
+! Preview: Snippet 74 started.
+<-><->
+      
+l.85 ...\epsilon^2)$ has only one point, we have $
+                                                  Mor(k[\epsilon]/(\epsilon^...
+
+Not a real error.
+
+! Preview: Snippet 74 ended.(623265+196608x20394653).
+<-><->
+      
+l.85 ...mathcal{O}_x, k[\epsilon]/(\epsilon^2))\}$
+                                                  . And Notice for every loc...
+
+Not a real error.
+
+[74]
+! Preview: Snippet 75 started.
+<-><->
+      
+l.85 ...nd Notice for every local homomorphism   $
+                                                  f\in Hom(\mathcal{O}_x, k[...
+
+Not a real error.
+
+! Preview: Snippet 75 ended.(623265+196608x8248557).
+<-><->
+      
+l.85 ...mathcal{O}_x, k[\epsilon]/(\epsilon^2))\}$
+                                                  , it will induce an residu...
+
+Not a real error.
+
+[75]
+! Preview: Snippet 76 started.
+<-><->
+      
+l.85 ..., it will induce an residue homomorphism $
+                                                  k(x)\to k$, and notice $k(...
+
+Not a real error.
+
+! Preview: Snippet 76 ended.(589824+196608x3113622).
+<-><->
+      
+l.85 ...induce an residue homomorphism $k(x)\to k$
+                                                  , and notice $k(x)$ is a $...
+
+Not a real error.
+
+[76]
+! Preview: Snippet 77 started.
+<-><->
+      
+l.85 ...due homomorphism $k(x)\to k$, and notice $
+                                                  k(x)$ is a $k$-algebra, so...
+
+Not a real error.
+
+! Preview: Snippet 77 ended.(589824+196608x1463397).
+<-><->
+      
+l.85 ...omomorphism $k(x)\to k$, and notice $k(x)$
+                                                   is a $k$-algebra, so $k(x...
+
+Not a real error.
+
+[77]
+! Preview: Snippet 78 started.
+<-><->
+      
+l.85 ...hism $k(x)\to k$, and notice $k(x)$ is a $
+                                                  k$-algebra, so $k(x)\simeq...
+
+Not a real error.
+
+! Preview: Snippet 78 ended.(546132+0x426891).
+<-><->
+      
+l.85 ...sm $k(x)\to k$, and notice $k(x)$ is a $k$
+                                                  -algebra, so $k(x)\simeq k...
+
+Not a real error.
+
+[78]
+! Preview: Snippet 79 started.
+<-><->
+      
+l.85 ..., and notice $k(x)$ is a $k$-algebra, so $
+                                                  k(x)\simeq k$. And because...
+
+Not a real error.
+
+! Preview: Snippet 79 ended.(589824+196608x2938859).
+<-><->
+      
+l.85 ...$k(x)$ is a $k$-algebra, so $k(x)\simeq k$
+                                                  . And because $f(m_x^2)=0$...
+
+Not a real error.
+
+[79]
+! Preview: Snippet 80 started.
+<-><->
+      
+l.85 ...-algebra, so $k(x)\simeq k$. And because $
+                                                  f(m_x^2)=0$, we have $Mor(...
+
+Not a real error.
+
+! Preview: Snippet 80 ended.(623265+196608x3503187).
+<-><->
+      
+l.85 ...o $k(x)\simeq k$. And because $f(m_x^2)=0$
+                                                  , we have $Mor(k[\epsilon]...
+
+Not a real error.
+
+[80]
+! Preview: Snippet 81 started.
+<-><->
+      
+l.85 ...eq k$. And because $f(m_x^2)=0$, we have $
+                                                  Mor(k[\epsilon]/(\epsilon^...
+
+Not a real error.
+
+! Preview: Snippet 81 ended.(623265+196608x25898535).
+<-><->
+      
+l.85 ...l{O}_x/m_x^2, k[\epsilon]/(\epsilon^2))\}$
+                                                  . For $f\in Hom(\mathcal{O...
+
+Not a real error.
+
+[81]
+! Preview: Snippet 82 started.
+<-><->
+      
+l.85 ...m_x^2, k[\epsilon]/(\epsilon^2))\}$. For $
+                                                  f\in Hom(\mathcal{O}_x/m_x...
+
+Not a real error.
+
+! Preview: Snippet 82 ended.(623265+196608x9653477).
+<-><->
+      
+l.85 ...l{O}_x/m_x^2, k[\epsilon]/(\epsilon^2))\}$
+                                                  , $f(m_x)\in (\epsilon)$, ...
+
+Not a real error.
+
+[82]
+! Preview: Snippet 83 started.
+<-><->
+      
+l.85 ...}_x/m_x^2, k[\epsilon]/(\epsilon^2))\}$, $
+                                                  f(m_x)\in (\epsilon)$, whi...
+
+Not a real error.
+
+! Preview: Snippet 83 ended.(589824+196608x3953385).
+<-><->
+      
+l.85 ...]/(\epsilon^2))\}$, $f(m_x)\in (\epsilon)$
+                                                  , which defines an vector ...
+
+Not a real error.
+
+[83]
+! Preview: Snippet 84 started.
+<-><->
+      
+l.85 ...defines an vector space homomophism over $
+                                                  k$. On the otherhand if we...
+
+Not a real error.
+
+! Preview: Snippet 84 ended.(546132+0x426891).
+<-><->
+      
+l.85 ...fines an vector space homomophism over $k$
+                                                  . On the otherhand if we h...
+
+Not a real error.
+
+[84]
+! Preview: Snippet 85 started.
+<-><->
+      
+l.85 ...nd if we have a vector space homomophism $
+                                                  f$ from $m_x/m_x^2$ to $k$...
+
+Not a real error.
+
+! Preview: Snippet 85 ended.(546132+152916x463527).
+<-><->
+      
+l.85 ... if we have a vector space homomophism $f$
+                                                   from $m_x/m_x^2$ to $k$, ...
+
+Not a real error.
+
+[85]
+! Preview: Snippet 86 started.
+<-><->
+      
+l.85 ...have a vector space homomophism $f$ from $
+                                                  m_x/m_x^2$ to $k$, add the...
+
+Not a real error.
+
+! Preview: Snippet 86 ended.(623265+196608x2424820).
+<-><->
+      
+l.85 ...tor space homomophism $f$ from $m_x/m_x^2$
+                                                   to $k$, add the definitio...
+
+Not a real error.
+
+[86]
+! Preview: Snippet 87 started.
+<-><->
+      
+l.85 ...pace homomophism $f$ from $m_x/m_x^2$ to $
+                                                  k$, add the definition tha...
+
+Not a real error.
+
+! Preview: Snippet 87 ended.(546132+0x426891).
+<-><->
+      
+l.85 ...ce homomophism $f$ from $m_x/m_x^2$ to $k$
+                                                  , add the definition that ...
+
+Not a real error.
+
+[87]
+! Preview: Snippet 88 started.
+<-><->
+      
+l.85 ...x/m_x^2$ to $k$, add the definition that $
+                                                  f(1)=1$, we define a vecto...
+
+Not a real error.
+
+! Preview: Snippet 88 ended.(589824+196608x2868307).
+<-><->
+      
+l.85 ...$ to $k$, add the definition that $f(1)=1$
+                                                  , we define a vector space...
+
+Not a real error.
+
+[88]
+! Preview: Snippet 89 started.
+<-><->
+      
+l.85 ... we define a vector space morphism from  $
+                                                  \mathcal{O}_x/m_x^2$,to $k...
+
+Not a real error.
+
+! Preview: Snippet 89 ended.(623265+196608x2377352).
+<-><->
+      
+l.85 ...space morphism from  $\mathcal{O}_x/m_x^2$
+                                                  ,to $k[\epsilon]/(\epsilon...
+
+Not a real error.
+
+[89]
+! Preview: Snippet 90 started.
+<-><->
+      
+l.85 ... morphism from  $\mathcal{O}_x/m_x^2$,to $
+                                                  k[\epsilon]/(\epsilon^2)$,...
+
+Not a real error.
+
+! Preview: Snippet 90 ended.(623265+196608x2771789).
+<-><->
+      
+l.85 ...{O}_x/m_x^2$,to $k[\epsilon]/(\epsilon^2)$
+                                                  , which is also a ring hom...
+
+Not a real error.
+
+[90]
+! Preview: Snippet 91 started.
+<-><->
+      
+l.90   \item (Topology of $
+                           X$). We define $X=\coprod X_i/\sim$. With $x~y$ i...
+
+Not a real error.
+
+! Preview: Snippet 91 ended.(537395+0x700911).
+<-><->
+      
+l.90   \item (Topology of $X$
+                             ). We define $X=\coprod X_i/\sim$. With $x~y$ i...
+
+Not a real error.
+
+[91]
+! Preview: Snippet 92 started.
+<-><->
+      
+l.90   \item (Topology of $X$). We define $
+                                           X=\coprod X_i/\sim$. With $x~y$ i...
+
+Not a real error.
+
+! Preview: Snippet 92 ended.(589829+196613x4687195).
+<-><->
+      
+l.90 ...gy of $X$). We define $X=\coprod X_i/\sim$
+                                                  . With $x~y$ if and only i...
+
+Not a real error.
+
+[92]
+! Preview: Snippet 93 started.
+<-><->
+      
+l.90 ...$). We define $X=\coprod X_i/\sim$. With $
+                                                  x~y$ if and only if $\exis...
+
+Not a real error.
+
+! Preview: Snippet 93 ended.(338603+152916x1097945).
+<-><->
+      
+l.90 ...We define $X=\coprod X_i/\sim$. With $x~y$
+                                                   if and only if $\exists{}...
+
+Not a real error.
+
+[93]
+! Preview: Snippet 94 started.
+<-><->
+      
+l.90 ...rod X_i/\sim$. With $x~y$ if and only if $
+                                                  \exists{} i,j$, s.t. $x\in...
+
+Not a real error.
+
+! Preview: Snippet 94 ended.(546133+152916x1407392).
+<-><->
+      
+l.90 ... With $x~y$ if and only if $\exists{} i,j$
+                                                  , s.t. $x\in U_{ij}$, $y\i...
+
+Not a real error.
+
+[94]
+! Preview: Snippet 95 started.
+<-><->
+      
+l.90 ...~y$ if and only if $\exists{} i,j$, s.t. $
+                                                  x\in U_{ij}$, $y\in U_{ji}...
+
+Not a real error.
+
+! Preview: Snippet 95 ended.(537395+219909x2399680).
+<-><->
+      
+l.90 ...nly if $\exists{} i,j$, s.t. $x\in U_{ij}$
+                                                  , $y\in U_{ji}$ and $y=\ph...
+
+Not a real error.
+
+[95]
+! Preview: Snippet 96 started.
+<-><->
+      
+l.90 ... if $\exists{} i,j$, s.t. $x\in U_{ij}$, $
+                                                  y\in U_{ji}$ and $y=\phi_{...
+
+Not a real error.
+
+! Preview: Snippet 96 ended.(537395+219909x2365773).
+<-><->
+      
+l.90 ...{} i,j$, s.t. $x\in U_{ij}$, $y\in U_{ji}$
+                                                   and $y=\phi_{ij}(x)$.
+Not a real error.
+
+[96]
+! Preview: Snippet 97 started.
+<-><->
+      
+l.90 ...$, s.t. $x\in U_{ij}$, $y\in U_{ji}$ and $
+                                                  y=\phi_{ij}(x)$.
+Not a real error.
+
+! Preview: Snippet 97 ended.(589824+219909x3409671).
+<-><->
+      
+l.90 ..._{ij}$, $y\in U_{ji}$ and $y=\phi_{ij}(x)$
+                                                  .
+Not a real error.
+
+[97]
+! Preview: Snippet 98 started.
+<-><->
+      
+l.92     \item $
+                \sim$ is a equivalence relation by cocycle conditions.
+Not a real error.
+
+! Preview: Snippet 98 ended.(288522+0x611671).
+<-><->
+      
+l.92     \item $\sim$
+                      is a equivalence relation by cocycle conditions.
+Not a real error.
+
+[98]
+! Preview: Snippet 99 started.
+<-><->
+      
+l.93     \item The natural map $
+                                \Phi_i: X_i\to X$ is injective.
+Not a real error.
+
+! Preview: Snippet 99 ended.(537395+117964x4215121).
+<-><->
+      
+l.93     \item The natural map $\Phi_i: X_i\to X$
+                                                  is injective.
+Not a real error.
+
+[99]
+! Preview: Snippet 100 started.
+<-><->
+      
+l.94     \item We define $
+                          U$ open in $X$ if and only if $U\cap X_i$ is open ...
+
+Not a real error.
+
+! Preview: Snippet 100 ended.(537395+0x605129).
+<-><->
+      
+l.94     \item We define $U$
+                             open in $X$ if and only if $U\cap X_i$ is open ...
+
+Not a real error.
+
+[100]
+! Preview: Snippet 101 started.
+<-><->
+      
+l.94     \item We define $U$ open in $
+                                      X$ if and only if $U\cap X_i$ is open ...
+
+Not a real error.
+
+! Preview: Snippet 101 ended.(537395+0x700911).
+<-><->
+      
+l.94     \item We define $U$ open in $X$
+                                         if and only if $U\cap X_i$ is open ...
+
+Not a real error.
+
+[101]
+! Preview: Snippet 102 started.
+<-><->
+      
+l.94 ...We define $U$ open in $X$ if and only if $
+                                                  U\cap X_i$ is open in $X_i$.
+Not a real error.
+
+! Preview: Snippet 102 ended.(537395+117964x2340448).
+<-><->
+      
+l.94 ...$U$ open in $X$ if and only if $U\cap X_i$
+                                                   is open in $X_i$.
+Not a real error.
+
+[102]
+! Preview: Snippet 103 started.
+<-><->
+      
+l.94 ...X$ if and only if $U\cap X_i$ is open in $
+                                                  X_i$.
+Not a real error.
+
+! Preview: Snippet 103 ended.(537395+117964x861510).
+<-><->
+      
+l.94 ...f and only if $U\cap X_i$ is open in $X_i$
+                                                  .
+Not a real error.
+
+[103]
+! Preview: Snippet 104 started.
+<-><->
+      
+l.95     \item $
+                \Phi_i$ is an open embedding, since for every $W$ open in $X...
+
+Not a real error.
+
+! Preview: Snippet 104 ended.(537395+117964x778566).
+<-><->
+      
+l.95     \item $\Phi_i$
+                        is an open embedding, since for every $W$ open in $X...
+
+Not a real error.
+
+[104]
+! Preview: Snippet 105 started.
+<-><->
+      
+l.95 ...i$ is an open embedding, since for every $
+                                                  W$ open in $X_i$, $\Phi_j^...
+
+Not a real error.
+
+! Preview: Snippet 105 ended.(537395+0x833937).
+<-><->
+      
+l.95 ... is an open embedding, since for every $W$
+                                                   open in $X_i$, $\Phi_j^{-...
+
+Not a real error.
+
+[105]
+! Preview: Snippet 106 started.
+<-><->
+      
+l.95 ...n embedding, since for every $W$ open in $
+                                                  X_i$, $\Phi_j^{-1}(W)=\phi...
+
+Not a real error.
+
+! Preview: Snippet 106 ended.(537395+117964x861510).
+<-><->
+      
+l.95 ...bedding, since for every $W$ open in $X_i$
+                                                  , $\Phi_j^{-1}(W)=\phi_{ij...
+
+Not a real error.
+
+[106]
+! Preview: Snippet 107 started.
+<-><->
+      
+l.95 ...ding, since for every $W$ open in $X_i$, $
+                                                  \Phi_j^{-1}(W)=\phi_{ij}(W...
+
+Not a real error.
+
+! Preview: Snippet 107 ended.(663372+303488x8010626).
+<-><->
+      
+l.95 ... $\Phi_j^{-1}(W)=\phi_{ij}(W \cap U_{ij})$
+                                                  .
+Not a real error.
+
+[107]
+! Preview: Snippet 108 started.
+<-><->
+      
+l.97   \item (Sheaves on X) Here we can assume $
+                                                U_{ij}=U_{ji}=X_i\cap X_j$. ...
+
+Not a real error.
+
+! Preview: Snippet 108 ended.(537395+219909x6736119).
+<-><->
+      
+l.97 ... we can assume $U_{ij}=U_{ji}=X_i\cap X_j$
+                                                  . We define presheaf $F$, s.t
+
+Not a real error.
+
+[108]
+! Preview: Snippet 109 started.
+<-><->
+      
+l.97 ...=U_{ji}=X_i\cap X_j$. We define presheaf $
+                                                  F$, s.t
+Not a real error.
+
+! Preview: Snippet 109 ended.(537395+0x605430).
+<-><->
+      
+l.97 ..._{ji}=X_i\cap X_j$. We define presheaf $F$
+                                                  , s.t
+Not a real error.
+
+[109]
+! Preview: Snippet 110 started.
+<-><->
+      
+l.98 $
+      $F(V)=\{(s_i \in \Gamma(V \cap X_i,\mathcal{O}_{V \cap X_i}))_{i\in I}...
+
+Not a real error.
+
+! Preview: Snippet 110 ended.(1228996+0x30785865).
+<-><->
+      
+l.98 ...\cap X_j\}})=s_j|_{V\cap X_i \cap X_j}\}$$
+                                                   and the restriction map d...
+
+Not a real error.
+
+[110]
+! Preview: Snippet 111 started.
+<-><->
+      
+l.98 ...he restriction map defined on every term $
+                                                  i$.
+Not a real error.
+
+! Preview: Snippet 111 ended.(515577+0x262695).
+<-><->
+      
+l.98 ... restriction map defined on every term $i$
+                                                  .
+Not a real error.
+
+[111]
+! Preview: Snippet 112 started.
+<-><->
+      
+l.100 Thus for $
+                V \subset X_i$ and $s \in \mathcal{O}_{x_i}(V)$, $(\phi_{ij}...
+
+Not a real error.
+
+! Preview: Snippet 112 ended.(537395+117964x2530118).
+<-><->
+      
+l.100 Thus for $V \subset X_i$
+                               and $s \in \mathcal{O}_{x_i}(V)$, $(\phi_{ij}...
+
+Not a real error.
+
+[112]
+! Preview: Snippet 113 started.
+<-><->
+      
+l.100 Thus for $V \subset X_i$ and $
+                                    s \in \mathcal{O}_{x_i}(V)$, $(\phi_{ij}...
+
+Not a real error.
+
+! Preview: Snippet 113 ended.(589824+197894x3723285).
+<-><->
+      
+l.100 ...set X_i$ and $s \in \mathcal{O}_{x_i}(V)$
+                                                  , $(\phi_{ij}(s|_{V \cap X...
+
+Not a real error.
+
+[113]
+! Preview: Snippet 114 started.
+<-><->
+      
+l.100 ... X_i$ and $s \in \mathcal{O}_{x_i}(V)$, $
+                                                  (\phi_{ij}(s|_{V \cap X_I}...
+
+Not a real error.
+
+! Preview: Snippet 114 ended.(589824+219909x7963541).
+<-><->
+      
+l.100 ...ij}(s|_{V \cap X_I}))_{i \in I} \in F(V)$
+                                                   by the cocycle condition....
+
+Not a real error.
+
+[114]
+! Preview: Snippet 115 started.
+<-><->
+      
+l.100 ...by the cocycle condition. Hence the map $
+                                                  r$ from $s$ to $(\phi_{ij}...
+
+Not a real error.
+
+! Preview: Snippet 115 ended.(338603+0x368409).
+<-><->
+      
+l.100 ... the cocycle condition. Hence the map $r$
+                                                   from $s$ to $(\phi_{ij}(s...
+
+Not a real error.
+
+[115]
+! Preview: Snippet 116 started.
+<-><->
+      
+l.100 ...cycle condition. Hence the map $r$ from $
+                                                  s$ to $(\phi_{ij}(s|_{V \c...
+
+Not a real error.
+
+! Preview: Snippet 116 ended.(338603+0x362721).
+<-><->
+      
+l.100 ...cle condition. Hence the map $r$ from $s$
+                                                   to $(\phi_{ij}(s|_{V \cap...
+
+Not a real error.
+
+[116]
+! Preview: Snippet 117 started.
+<-><->
+      
+l.100 ...ondition. Hence the map $r$ from $s$ to $
+                                                  (\phi_{ij}(s|_{V \cap X_I}...
+
+Not a real error.
+
+! Preview: Snippet 117 ended.(589824+219909x5177965).
+<-><->
+      
+l.100 ... $(\phi_{ij}(s|_{V \cap X_I}))_{i \in I}$
+                                                   define a presheaf morphis...
+
+Not a real error.
+
+[117]
+! Preview: Snippet 118 started.
+<-><->
+      
+l.100 ...i \in I}$ define a presheaf morphism of $
+                                                  O_{X_i}$ and $F|_{X_i}$. A...
+
+Not a real error.
+
+! Preview: Snippet 118 ended.(537395+197894x1287410).
+<-><->
+      
+l.100 ...$ define a presheaf morphism of $O_{X_i}$
+                                                   and $F|_{X_i}$. And it's ...
+
+Not a real error.
+
+[118]
+! Preview: Snippet 119 started.
+<-><->
+      
+l.100 ...ne a presheaf morphism of $O_{X_i}$ and $
+                                                  F|_{X_i}$. And it's really...
+
+Not a real error.
+
+! Preview: Snippet 119 ended.(589824+197894x1522805).
+<-><->
+      
+l.100 ...heaf morphism of $O_{X_i}$ and $F|_{X_i}$
+                                                  . And it's really easy to ...
+
+Not a real error.
+
+[119]
+! Preview: Snippet 120 started.
+<-><->
+      
+l.100 ...}$. And it's really easy to verify that $
+                                                  r$ is in fact an isomorphism!
+
+Not a real error.
+
+! Preview: Snippet 120 ended.(338603+0x368409).
+<-><->
+      
+l.100 .... And it's really easy to verify that $r$
+                                                   is in fact an isomorphism!
+Not a real error.
+
+[120]
+! Preview: Snippet 121 started.
+<-><->
+      
+l.102 Notice $
+              s=t$ if and only if $s_i=t_i$ for all $i\in I$ and $F|_{X_i}$ ...
+
+Not a real error.
+
+! Preview: Snippet 121 ended.(483719+0x1676611).
+<-><->
+      
+l.102 Notice $s=t$
+                   if and only if $s_i=t_i$ for all $i\in I$ and $F|_{X_i}$ ...
+
+Not a real error.
+
+[121]
+! Preview: Snippet 122 started.
+<-><->
+      
+l.102 Notice $s=t$ if and only if $
+                                   s_i=t_i$ for all $i\in I$ and $F|_{X_i}$ ...
+
+Not a real error.
+
+! Preview: Snippet 122 ended.(483719+117964x2121463).
+<-><->
+      
+l.102 Notice $s=t$ if and only if $s_i=t_i$
+                                            for all $i\in I$ and $F|_{X_i}$ ...
+
+Not a real error.
+
+[122]
+! Preview: Snippet 123 started.
+<-><->
+      
+l.102 ... $s=t$ if and only if $s_i=t_i$ for all $
+                                                  i\in I$ and $F|_{X_i}$ are...
+
+Not a real error.
+
+! Preview: Snippet 123 ended.(537395+30747x1625335).
+<-><->
+      
+l.102 ...if and only if $s_i=t_i$ for all $i\in I$
+                                                   and $F|_{X_i}$ are sheave...
+
+Not a real error.
+
+[123]
+! Preview: Snippet 124 started.
+<-><->
+      
+l.102 ... only if $s_i=t_i$ for all $i\in I$ and $
+                                                  F|_{X_i}$ are sheaves, the...
+
+Not a real error.
+
+! Preview: Snippet 124 ended.(589824+197894x1522805).
+<-><->
+      
+l.102 ...$s_i=t_i$ for all $i\in I$ and $F|_{X_i}$
+                                                   are sheaves, the locality...
+
+Not a real error.
+
+[124]
+! Preview: Snippet 125 started.
+<-><->
+      
+l.102 ...checked by terms. For gluing axiom, let $
+                                                  \{V_\alpha\}$ form a cover...
+
+Not a real error.
+
+! Preview: Snippet 125 ended.(589824+196608x1625902).
+<-><->
+      
+l.102 ...rms. For gluing axiom, let $\{V_\alpha\}$
+                                                   form a cover of $V$ , and...
+
+Not a real error.
+
+[125]
+! Preview: Snippet 126 started.
+<-><->
+      
+l.102 ...iom, let $\{V_\alpha\}$ form a cover of $
+                                                  V$ , and $s_\alpha$ is a b...
+
+Not a real error.
+
+! Preview: Snippet 126 ended.(537395+0x620037).
+<-><->
+      
+l.102 ...m, let $\{V_\alpha\}$ form a cover of $V$
+                                                   , and $s_\alpha$ is a bun...
+
+Not a real error.
+
+[126]
+! Preview: Snippet 127 started.
+<-><->
+      
+l.102 ...\{V_\alpha\}$ form a cover of $V$ , and $
+                                                  s_\alpha$ is a bunch of se...
+
+Not a real error.
+
+! Preview: Snippet 127 ended.(338603+117964x753272).
+<-><->
+      
+l.102 ...a\}$ form a cover of $V$ , and $s_\alpha$
+                                                   is a bunch of sections ma...
+
+Not a real error.
+
+[127]
+! Preview: Snippet 128 started.
+<-><->
+      
+l.102 ...pha$ is a bunch of sections matching on $
+                                                  V_{\alpha\beta}$, then $s_...
+
+Not a real error.
+
+! Preview: Snippet 128 ended.(537395+219909x1178984).
+<-><->
+      
+l.102 ...of sections matching on $V_{\alpha\beta}$
+                                                  , then $s_{\alpha_i}$ also...
+
+Not a real error.
+
+[128]
+! Preview: Snippet 129 started.
+<-><->
+      
+l.102 ...ons matching on $V_{\alpha\beta}$, then $
+                                                  s_{\alpha_i}$ also match w...
+
+Not a real error.
+
+! Preview: Snippet 129 ended.(338603+197894x961258).
+<-><->
+      
+l.102 ...on $V_{\alpha\beta}$, then $s_{\alpha_i}$
+                                                   also match with each othe...
+
+Not a real error.
+
+[129]
+! Preview: Snippet 130 started.
+<-><->
+      
+l.102 ...tch with each other, hence there exists $
+                                                  s_i$, s.t $s_i|_{V_\alpha ...
+
+Not a real error.
+
+! Preview: Snippet 130 ended.(338603+117964x585147).
+<-><->
+      
+l.102 ...with each other, hence there exists $s_i$
+                                                  , s.t $s_i|_{V_\alpha \cap...
+
+Not a real error.
+
+[130]
+! Preview: Snippet 131 started.
+<-><->
+      
+l.102 ...ch other, hence there exists $s_i$, s.t $
+                                                  s_i|_{V_\alpha \cap X_i}=s...
+
+Not a real error.
+
+! Preview: Snippet 131 ended.(589824+197894x4544499).
+<-><->
+      
+l.102 ...t $s_i|_{V_\alpha \cap X_i}=s_{\alpha_i}$
+                                                  . And it's easy to check $...
+
+Not a real error.
+
+[131]
+! Preview: Snippet 132 started.
+<-><->
+      
+l.102 ...}=s_{\alpha_i}$. And it's easy to check $
+                                                  (s_i)_{i\in I}$ is compati...
+
+Not a real error.
+
+! Preview: Snippet 132 ended.(589824+196608x2060314).
+<-><->
+      
+l.102 .... And it's easy to check $(s_i)_{i\in I}$
+                                                   is compatible with $\phi_...
+
+Not a real error.
+
+[132]
+! Preview: Snippet 133 started.
+<-><->
+      
+l.102 ...eck $(s_i)_{i\in I}$ is compatible with $
+                                                  \phi_{ij}$ and hence in $F...
+
+Not a real error.
+
+! Preview: Snippet 133 ended.(546132+219909x933666).
+<-><->
+      
+l.102 ..._{i\in I}$ is compatible with $\phi_{ij}$
+                                                   and hence in $F(V)$. So t...
+
+Not a real error.
+
+[133]
+! Preview: Snippet 134 started.
+<-><->
+      
+l.102 ...ompatible with $\phi_{ij}$ and hence in $
+                                                  F(V)$. So the gluing prope...
+
+Not a real error.
+
+! Preview: Snippet 134 ended.(589824+196608x1824387).
+<-><->
+      
+l.102 ...ible with $\phi_{ij}$ and hence in $F(V)$
+                                                  . So the gluing property i...
+
+Not a real error.
+
+[134]
+! Preview: Snippet 135 started.
+<-><->
+      
+l.102 ...ty is proved. And the ring structure of $
+                                                  F$ can be naturally define...
+
+Not a real error.
+
+! Preview: Snippet 135 ended.(537395+0x605430).
+<-><->
+      
+l.102 ... is proved. And the ring structure of $F$
+                                                   can be naturally defined ...
+
+Not a real error.
+
+[135]
+! Preview: Snippet 136 started.
+<-><->
+      
+l.107   \item (a) $
+                   U\cap X_f=\{f\in U|f_x \notin m_x\} =\{f\in U| \bar{f}_x\...
+
+Not a real error.
+
+! Preview: Snippet 136 ended.(651715+219909x18790297).
+<-><->
+      
+l.107 ...f\in U| \bar{f}_x\notin m_x\}=D(\bar{f})$
+                                                  
+Not a real error.
+
+[136]
+! Preview: Snippet 137 started.
+<-><->
+      
+l.109 The fact that $
+                     X$ is covered by open affine subschemes induces that $X...
+
+Not a real error.
+
+! Preview: Snippet 137 ended.(537395+0x700911).
+<-><->
+      
+l.109 The fact that $X$
+                        is covered by open affine subschemes induces that $X...
+
+Not a real error.
+
+[137]
+! Preview: Snippet 138 started.
+<-><->
+      
+l.109 ... by open affine subschemes induces that $
+                                                  X_f$ is open in $X$.
+Not a real error.
+
+! Preview: Snippet 138 ended.(537395+219909x997259).
+<-><->
+      
+l.109 ...open affine subschemes induces that $X_f$
+                                                   is open in $X$.
+Not a real error.
+
+[138]
+! Preview: Snippet 139 started.
+<-><->
+      
+l.109 ...ubschemes induces that $X_f$ is open in $
+                                                  X$.
+Not a real error.
+
+! Preview: Snippet 139 ended.(537395+0x700911).
+<-><->
+      
+l.109 ...schemes induces that $X_f$ is open in $X$
+                                                  .
+Not a real error.
+
+[139]
+! Preview: Snippet 140 started.
+<-><->
+      
+l.111 \item (b)Let $
+                    U_i$ be an open affine cover of $X$, $i=1,2,3\ldots,n$ a...
+
+Not a real error.
+
+! Preview: Snippet 140 ended.(537395+117964x745407).
+<-><->
+      
+l.111 \item (b)Let $U_i$
+                         be an open affine cover of $X$, $i=1,2,3\ldots,n$ a...
+
+Not a real error.
+
+[140]
+! Preview: Snippet 141 started.
+<-><->
+      
+l.111 ...(b)Let $U_i$ be an open affine cover of $
+                                                  X$, $i=1,2,3\ldots,n$ and ...
+
+Not a real error.
+
+! Preview: Snippet 141 ended.(537395+0x700911).
+<-><->
+      
+l.111 ...)Let $U_i$ be an open affine cover of $X$
+                                                  , $i=1,2,3\ldots,n$ and $U...
+
+Not a real error.
+
+[141]
+! Preview: Snippet 142 started.
+<-><->
+      
+l.111 ...t $U_i$ be an open affine cover of $X$, $
+                                                  i=1,2,3\ldots,n$ and $U_i=...
+
+Not a real error.
+
+! Preview: Snippet 142 ended.(515577+152916x5114122).
+<-><->
+      
+l.111 ...en affine cover of $X$, $i=1,2,3\ldots,n$
+                                                   and $U_i=Spec \  R_i$.
+Not a real error.
+
+[142]
+! Preview: Snippet 143 started.
+<-><->
+      
+l.111 ...ine cover of $X$, $i=1,2,3\ldots,n$ and $
+                                                  U_i=Spec \  R_i$.
+Not a real error.
+
+! Preview: Snippet 143 ended.(537395+152916x4440602).
+<-><->
+      
+l.111 ..., $i=1,2,3\ldots,n$ and $U_i=Spec \  R_i$
+                                                  .
+Not a real error.
+
+[143]
+! Preview: Snippet 144 started.
+<-><->
+      
+l.113 Then $
+            a|X_f=0 \Leftrightarrow (a|_{U_i})|X_f\cap U_i=0$ for all $i \Le...
+
+Not a real error.
+
+! Preview: Snippet 144 ended.(589824+219909x10359098).
+<-><->
+      
+l.113 ...\Leftrightarrow (a|_{U_i})|X_f\cap U_i=0$
+                                                   for all $i \Leftrightarro...
+
+Not a real error.
+
+[144]
+! Preview: Snippet 145 started.
+<-><->
+      
+l.113 ...arrow (a|_{U_i})|X_f\cap U_i=0$ for all $
+                                                  i \Leftrightarrow a|U_i=0$...
+
+Not a real error.
+
+! Preview: Snippet 145 ended.(589824+196608x4274955).
+<-><->
+      
+l.113 ..._i=0$ for all $i \Leftrightarrow a|U_i=0$
+                                                   as elements of $B_{i_f} \...
+
+Not a real error.
+
+[145]
+! Preview: Snippet 146 started.
+<-><->
+      
+l.113 ...\Leftrightarrow a|U_i=0$ as elements of $
+                                                  B_{i_f} \Leftrightarrow \e...
+
+Not a real error.
+
+! Preview: Snippet 146 ended.(546133+286902x4893452).
+<-><->
+      
+l.113 ..._{i_f} \Leftrightarrow \exists l_i \in N$
+                                                   s.t. $a|_{U_i}f|_{U_i}^{l...
+
+Not a real error.
+
+[146]
+! Preview: Snippet 147 started.
+<-><->
+      
+l.113 ...\Leftrightarrow \exists l_i \in N$ s.t. $
+                                                  a|_{U_i}f|_{U_i}^{l_i}=0$ ...
+
+Not a real error.
+
+! Preview: Snippet 147 ended.(714900+293136x3960736).
+<-><->
+      
+l.113 ..._i \in N$ s.t. $a|_{U_i}f|_{U_i}^{l_i}=0$
+                                                   let $l$ be the max $l_i$,...
+
+Not a real error.
+
+[147]
+! Preview: Snippet 148 started.
+<-><->
+      
+l.113 ... N$ s.t. $a|_{U_i}f|_{U_i}^{l_i}=0$ let $
+                                                  l$ be the max $l_i$, then ...
+
+Not a real error.
+
+! Preview: Snippet 148 ended.(546132+0x246669).
+<-><->
+      
+l.113 ...$ s.t. $a|_{U_i}f|_{U_i}^{l_i}=0$ let $l$
+                                                   be the max $l_i$, then $a...
+
+Not a real error.
+
+[148]
+! Preview: Snippet 149 started.
+<-><->
+      
+l.113 ..._i}f|_{U_i}^{l_i}=0$ let $l$ be the max $
+                                                  l_i$, then $af^l|U_i=0$ an...
+
+Not a real error.
+
+! Preview: Snippet 149 ended.(546132+117964x451800).
+<-><->
+      
+l.113 ...|_{U_i}^{l_i}=0$ let $l$ be the max $l_i$
+                                                  , then $af^l|U_i=0$ and th...
+
+Not a real error.
+
+[149]
+! Preview: Snippet 150 started.
+<-><->
+      
+l.113 ...{l_i}=0$ let $l$ be the max $l_i$, then $
+                                                  af^l|U_i=0$ and thus $af^l=0$
+
+Not a real error.
+
+! Preview: Snippet 150 ended.(649479+196608x3457709).
+<-><->
+      
+l.113 ...t $l$ be the max $l_i$, then $af^l|U_i=0$
+                                                   and thus $af^l=0$
+Not a real error.
+
+[150]
+! Preview: Snippet 151 started.
+<-><->
+      
+l.113 ...e max $l_i$, then $af^l|U_i=0$ and thus $
+                                                  af^l=0$
+Not a real error.
+
+! Preview: Snippet 151 ended.(649479+152916x2493848).
+<-><->
+      
+l.113 ...l_i$, then $af^l|U_i=0$ and thus $af^l=0$
+                                                  
+Not a real error.
+
+[151]
+! Preview: Snippet 152 started.
+<-><->
+      
+l.115 \item (c)$
+                b\in \Gamma(X_f,\mathcal{O_{X_f}})$ induce that $b|_{U_i\cap...
+
+Not a real error.
+
+! Preview: Snippet 152 ended.(589824+330592x5050274).
+<-><->
+      
+l.115 ...m (c)$b\in \Gamma(X_f,\mathcal{O_{X_f}})$
+                                                   induce that $b|_{U_i\cap ...
+
+Not a real error.
+
+[152]
+! Preview: Snippet 153 started.
+<-><->
+      
+l.115 ...mma(X_f,\mathcal{O_{X_f}})$ induce that $
+                                                  b|_{U_i\cap X_f} \in \Gamm...
+
+Not a real error.
+
+! Preview: Snippet 153 ended.(589824+286902x12581779).
+<-><->
+      
+l.115 ...p X_f,\mathcal{O}_{U_i}\cap X_f)=B_{i_f}$
+                                                  . Here we assume $U_i=Spec...
+
+Not a real error.
+
+[153]
+! Preview: Snippet 154 started.
+<-><->
+      
+l.115 ...{U_i}\cap X_f)=B_{i_f}$. Here we assume $
+                                                  U_i=Spec \  B_i$ and hence...
+
+Not a real error.
+
+! Preview: Snippet 154 ended.(537395+152916x4439474).
+<-><->
+      
+l.115 ..._{i_f}$. Here we assume $U_i=Spec \  B_i$
+                                                   and hence $\exists l_i$ s...
+
+Not a real error.
+
+[154]
+! Preview: Snippet 155 started.
+<-><->
+      
+l.115 ...e we assume $U_i=Spec \  B_i$ and hence $
+                                                  \exists l_i$ s.t $b|_{U_i\...
+
+Not a real error.
+
+! Preview: Snippet 155 ended.(546133+117964x888708).
+<-><->
+      
+l.115 ...$U_i=Spec \  B_i$ and hence $\exists l_i$
+                                                   s.t $b|_{U_i\cap X_f}=a_i...
+
+Not a real error.
+
+[155]
+! Preview: Snippet 156 started.
+<-><->
+      
+l.115 ...pec \  B_i$ and hence $\exists l_i$ s.t $
+                                                  b|_{U_i\cap X_f}=a_i/f^{l_...
+
+Not a real error.
+
+! Preview: Snippet 156 ended.(649479+286902x5225085).
+<-><->
+      
+l.115 ...s l_i$ s.t $b|_{U_i\cap X_f}=a_i/f^{l_i}$
+                                                  . Thus let $l$ be the max ...
+
+Not a real error.
+
+[156]
+! Preview: Snippet 157 started.
+<-><->
+      
+l.115 ...b|_{U_i\cap X_f}=a_i/f^{l_i}$. Thus let $
+                                                  l$ be the max $l_i$ and le...
+
+Not a real error.
+
+! Preview: Snippet 157 ended.(546132+0x246669).
+<-><->
+      
+l.115 ..._{U_i\cap X_f}=a_i/f^{l_i}$. Thus let $l$
+                                                   be the max $l_i$ and let ...
+
+Not a real error.
+
+[157]
+! Preview: Snippet 158 started.
+<-><->
+      
+l.115 ...}=a_i/f^{l_i}$. Thus let $l$ be the max $
+                                                  l_i$ and let $c=bf^l$, the...
+
+Not a real error.
+
+! Preview: Snippet 158 ended.(546132+117964x451800).
+<-><->
+      
+l.115 ...i/f^{l_i}$. Thus let $l$ be the max $l_i$
+                                                   and let $c=bf^l$, then $\...
+
+Not a real error.
+
+[158]
+! Preview: Snippet 159 started.
+<-><->
+      
+l.115 .... Thus let $l$ be the max $l_i$ and let $
+                                                  c=bf^l$, then $\exists c_i...
+
+Not a real error.
+
+! Preview: Snippet 159 ended.(649479+152916x2363412).
+<-><->
+      
+l.115 ...let $l$ be the max $l_i$ and let $c=bf^l$
+                                                  , then $\exists c_i \in B_...
+
+Not a real error.
+
+[159]
+! Preview: Snippet 160 started.
+<-><->
+      
+l.115 ...be the max $l_i$ and let $c=bf^l$, then $
+                                                  \exists c_i \in B_i$ s.t $...
+
+Not a real error.
+
+! Preview: Snippet 160 ended.(546133+117964x2759350).
+<-><->
+      
+l.115 ... let $c=bf^l$, then $\exists c_i \in B_i$
+                                                   s.t $c|U_i \cap X_f=c_i|U...
+
+Not a real error.
+
+[160]
+! Preview: Snippet 161 started.
+<-><->
+      
+l.115 ...c=bf^l$, then $\exists c_i \in B_i$ s.t $
+                                                  c|U_i \cap X_f=c_i|U_i \ca...
+
+Not a real error.
+
+! Preview: Snippet 161 ended.(589824+219909x7590918).
+<-><->
+      
+l.115 ..._i$ s.t $c|U_i \cap X_f=c_i|U_i \cap X_f$
+                                                  .
+Not a real error.
+
+[161]
+! Preview: Snippet 162 started.
+<-><->
+      
+l.117 Notice $
+              c|_{U_i \cap U_j \cap X_f}=c|_{U_i \cap U_j \cap X_f}=c|_{U_i ...
+
+Not a real error.
+
+! Preview: Snippet 162 ended.(589824+286902x12019700).
+<-><->
+      
+l.117 ...U_j \cap X_f}=c|_{U_i \cap U_j \cap X_f}$
+                                                  . So $\exists \mu_{ij}$ s....
+
+Not a real error.
+
+[162]
+! Preview: Snippet 163 started.
+<-><->
+      
+l.117 ...ap X_f}=c|_{U_i \cap U_j \cap X_f}$. So $
+                                                  \exists \mu_{ij}$ s.t $c_i...
+
+Not a real error.
+
+! Preview: Snippet 163 ended.(546133+219909x1378131).
+<-><->
+      
+l.117 ...cap U_j \cap X_f}$. So $\exists \mu_{ij}$
+                                                   s.t $c_if^{\mu_{ij}}=c_jf...
+
+Not a real error.
+
+[163]
+! Preview: Snippet 164 started.
+<-><->
+      
+l.117 ...j \cap X_f}$. So $\exists \mu_{ij}$ s.t $
+                                                  c_if^{\mu_{ij}}=c_jf^{\mu_...
+
+Not a real error.
+
+! Preview: Snippet 164 ended.(546132+219909x4736048).
+<-><->
+      
+l.117 ...j}$ s.t $c_if^{\mu_{ij}}=c_jf^{\mu_{ij}}$
+                                                   on $U_i \cap U_j$. Then l...
+
+Not a real error.
+
+[164]
+! Preview: Snippet 165 started.
+<-><->
+      
+l.117 ....t $c_if^{\mu_{ij}}=c_jf^{\mu_{ij}}$ on $
+                                                  U_i \cap U_j$. Then let $d...
+
+Not a real error.
+
+! Preview: Snippet 165 ended.(537395+219909x2430463).
+<-><->
+      
+l.117 ..._{ij}}=c_jf^{\mu_{ij}}$ on $U_i \cap U_j$
+                                                  . Then let $d_i=c_i f^\mu$...
+
+Not a real error.
+
+[165]
+! Preview: Snippet 166 started.
+<-><->
+      
+l.117 ...{\mu_{ij}}$ on $U_i \cap U_j$. Then let $
+                                                  d_i=c_i f^\mu$ with $\mu$ ...
+
+Not a real error.
+
+! Preview: Snippet 166 ended.(546132+152916x3043621).
+<-><->
+      
+l.117 ... $U_i \cap U_j$. Then let $d_i=c_i f^\mu$
+                                                   with $\mu$ be the max $\m...
+
+Not a real error.
+
+[166]
+! Preview: Snippet 167 started.
+<-><->
+      
+l.117 ...cap U_j$. Then let $d_i=c_i f^\mu$ with $
+                                                  \mu$ be the max $\mu_{ij}$...
+
+Not a real error.
+
+! Preview: Snippet 167 ended.(338603+152916x463299).
+<-><->
+      
+l.117 ...U_j$. Then let $d_i=c_i f^\mu$ with $\mu$
+                                                   be the max $\mu_{ij}$. Th...
+
+Not a real error.
+
+[167]
+! Preview: Snippet 168 started.
+<-><->
+      
+l.117 ...t $d_i=c_i f^\mu$ with $\mu$ be the max $
+                                                  \mu_{ij}$. Then $\exists d...
+
+Not a real error.
+
+! Preview: Snippet 168 ended.(338603+219909x941223).
+<-><->
+      
+l.117 ...i f^\mu$ with $\mu$ be the max $\mu_{ij}$
+                                                  . Then $\exists d$ s.t. $d...
+
+Not a real error.
+
+[168]
+! Preview: Snippet 169 started.
+<-><->
+      
+l.117 ... with $\mu$ be the max $\mu_{ij}$. Then $
+                                                  \exists d$ s.t. $d|U_i=d_i...
+
+Not a real error.
+
+! Preview: Snippet 169 ended.(546133+0x837038).
+<-><->
+      
+l.117 ...$ be the max $\mu_{ij}$. Then $\exists d$
+                                                   s.t. $d|U_i=d_i$ and henc...
+
+Not a real error.
+
+[169]
+! Preview: Snippet 170 started.
+<-><->
+      
+l.117 ...e max $\mu_{ij}$. Then $\exists d$ s.t. $
+                                                  d|U_i=d_i$ and hence $d|X_...
+
+Not a real error.
+
+! Preview: Snippet 170 ended.(589824+196608x3022367).
+<-><->
+      
+l.117 ..._{ij}$. Then $\exists d$ s.t. $d|U_i=d_i$
+                                                   and hence $d|X_f= bf^{l+\...
+
+Not a real error.
+
+[170]
+! Preview: Snippet 171 started.
+<-><->
+      
+l.117 ... $\exists d$ s.t. $d|U_i=d_i$ and hence $
+                                                  d|X_f= bf^{l+\mu}$
+Not a real error.
+
+! Preview: Snippet 171 ended.(649479+219909x4416237).
+<-><->
+      
+l.117 ...$d|U_i=d_i$ and hence $d|X_f= bf^{l+\mu}$
+                                                  
+Not a real error.
+
+[171]
+! Preview: Snippet 172 started.
+<-><->
+      
+l.118 \item Notice $
+                    f|U_i$ is a unit, assume $fg_i=1$ for $g_i \in U_i\cap X...
+
+Not a real error.
+
+! Preview: Snippet 172 ended.(589824+196608x1427388).
+<-><->
+      
+l.118 \item Notice $f|U_i$
+                           is a unit, assume $fg_i=1$ for $g_i \in U_i\cap X...
+
+Not a real error.
+
+[172]
+! Preview: Snippet 173 started.
+<-><->
+      
+l.118 \item Notice $f|U_i$ is a unit, assume $
+                                              fg_i=1$ for $g_i \in U_i\cap X...
+
+Not a real error.
+
+! Preview: Snippet 173 ended.(546132+152916x2475520).
+<-><->
+      
+l.118 ...Notice $f|U_i$ is a unit, assume $fg_i=1$
+                                                   for $g_i \in U_i\cap X_f$...
+
+Not a real error.
+
+[173]
+! Preview: Snippet 174 started.
+<-><->
+      
+l.118 ... $f|U_i$ is a unit, assume $fg_i=1$ for $
+                                                  g_i \in U_i\cap X_f$. Then...
+
+Not a real error.
+
+! Preview: Snippet 174 ended.(537395+219909x4168817).
+<-><->
+      
+l.118 ...assume $fg_i=1$ for $g_i \in U_i\cap X_f$
+                                                  . Then for any $V$ affine ...
+
+Not a real error.
+
+[174]
+! Preview: Snippet 175 started.
+<-><->
+      
+l.118 ...for $g_i \in U_i\cap X_f$. Then for any $
+                                                  V$ affine open in $U_i \ca...
+
+Not a real error.
+
+! Preview: Snippet 175 ended.(537395+0x620037).
+<-><->
+      
+l.118 ...r $g_i \in U_i\cap X_f$. Then for any $V$
+                                                   affine open in $U_i \cap ...
+
+Not a real error.
+
+[175]
+! Preview: Snippet 176 started.
+<-><->
+      
+l.118 ...p X_f$. Then for any $V$ affine open in $
+                                                  U_i \cap U_j$ we have $f(g...
+
+Not a real error.
+
+! Preview: Snippet 176 ended.(537395+219909x2430463).
+<-><->
+      
+l.118 ...for any $V$ affine open in $U_i \cap U_j$
+                                                   we have $f(g_i-g_j)=0$ in...
+
+Not a real error.
+
+[176]
+! Preview: Snippet 177 started.
+<-><->
+      
+l.118 ...$ affine open in $U_i \cap U_j$ we have $
+                                                  f(g_i-g_j)=0$ in $V\cap X_...
+
+Not a real error.
+
+! Preview: Snippet 177 ended.(589824+219909x4692624).
+<-><->
+      
+l.118 ... in $U_i \cap U_j$ we have $f(g_i-g_j)=0$
+                                                   in $V\cap X_f$. Hence $g_...
+
+Not a real error.
+
+[177]
+! Preview: Snippet 178 started.
+<-><->
+      
+l.118 ...U_i \cap U_j$ we have $f(g_i-g_j)=0$ in $
+                                                  V\cap X_f$. Hence $g_i$ co...
+
+Not a real error.
+
+! Preview: Snippet 178 ended.(537395+219909x2491105).
+<-><->
+      
+l.118 ..._j$ we have $f(g_i-g_j)=0$ in $V\cap X_f$
+                                                  . Hence $g_i$ coincides wi...
+
+Not a real error.
+
+[178]
+! Preview: Snippet 179 started.
+<-><->
+      
+l.118 ...ve $f(g_i-g_j)=0$ in $V\cap X_f$. Hence $
+                                                  g_i$ coincides with $g_j$ ...
+
+Not a real error.
+
+! Preview: Snippet 179 ended.(338603+152916x591153).
+<-><->
+      
+l.118 ...f(g_i-g_j)=0$ in $V\cap X_f$. Hence $g_i$
+                                                   coincides with $g_j$ on $...
+
+Not a real error.
+
+[179]
+! Preview: Snippet 180 started.
+<-><->
+      
+l.118 ...$V\cap X_f$. Hence $g_i$ coincides with $
+                                                  g_j$ on $U_i \cap U_j$. Le...
+
+Not a real error.
+
+! Preview: Snippet 180 ended.(338603+219909x656993).
+<-><->
+      
+l.118 ...ap X_f$. Hence $g_i$ coincides with $g_j$
+                                                   on $U_i \cap U_j$. Let $g...
+
+Not a real error.
+
+[180]
+! Preview: Snippet 181 started.
+<-><->
+      
+l.118 ...f$. Hence $g_i$ coincides with $g_j$ on $
+                                                  U_i \cap U_j$. Let $g|U_i\...
+
+Not a real error.
+
+! Preview: Snippet 181 ended.(537395+219909x2430463).
+<-><->
+      
+l.118 ...i$ coincides with $g_j$ on $U_i \cap U_j$
+                                                  . Let $g|U_i\cap X_f=g_i$....
+
+Not a real error.
+
+[181]
+! Preview: Snippet 182 started.
+<-><->
+      
+l.118 ...cides with $g_j$ on $U_i \cap U_j$. Let $
+                                                  g|U_i\cap X_f=g_i$.The $fg...
+
+Not a real error.
+
+! Preview: Snippet 182 ended.(589824+219909x4858846).
+<-><->
+      
+l.118 ...n $U_i \cap U_j$. Let $g|U_i\cap X_f=g_i$
+                                                  .The $fg=1$ on $X_f$. Henc...
+
+Not a real error.
+
+[182]
+! Preview: Snippet 183 started.
+<-><->
+      
+l.118 ... \cap U_j$. Let $g|U_i\cap X_f=g_i$.The $
+                                                  fg=1$ on $X_f$. Hence $f$ ...
+
+Not a real error.
+
+! Preview: Snippet 183 ended.(546132+152916x2281311).
+<-><->
+      
+l.118 ... U_j$. Let $g|U_i\cap X_f=g_i$.The $fg=1$
+                                                   on $X_f$. Hence $f$ is a ...
+
+Not a real error.
+
+[183]
+! Preview: Snippet 184 started.
+<-><->
+      
+l.118 .... Let $g|U_i\cap X_f=g_i$.The $fg=1$ on $
+                                                  X_f$. Hence $f$ is a unit.
+Not a real error.
+
+! Preview: Snippet 184 ended.(537395+219909x997259).
+<-><->
+      
+l.118 ...t $g|U_i\cap X_f=g_i$.The $fg=1$ on $X_f$
+                                                  . Hence $f$ is a unit.
+Not a real error.
+
+[184]
+! Preview: Snippet 185 started.
+<-><->
+      
+l.118 ...cap X_f=g_i$.The $fg=1$ on $X_f$. Hence $
+                                                  f$ is a unit.
+Not a real error.
+
+! Preview: Snippet 185 ended.(546132+152916x463527).
+<-><->
+      
+l.118 ...p X_f=g_i$.The $fg=1$ on $X_f$. Hence $f$
+                                                   is a unit.
+Not a real error.
+
+[185]
+! Preview: Snippet 186 started.
+<-><->
+      
+l.120 Thus $
+            S^{-1}f(id|X_f):\ A_f \to \Gamma(X_f, \mathcal{O}_{X_f})$ is wel...
+
+Not a real error.
+
+! Preview: Snippet 186 ended.(623265+286902x11124510).
+<-><->
+      
+l.120 ...\ A_f \to \Gamma(X_f, \mathcal{O}_{X_f})$
+                                                   is well defined. This map...
+
+Not a real error.
+
+[186]
+! Preview: Snippet 187 started.
+<-><->
+      
+l.126   \item (a) $
+                   f$ is obviously isomorphism in topology.
+Not a real error.
+
+! Preview: Snippet 187 ended.(546132+152916x463527).
+<-><->
+      
+l.126   \item (a) $f$
+                      is obviously isomorphism in topology.
+Not a real error.
+
+[187]
+! Preview: Snippet 188 started.
+<-><->
+      
+l.128 For sheaf property. We notice that for $
+                                              \forall U \subset Y$
+Not a real error.
+
+! Preview: Snippet 188 ended.(546133+30747x2708506).
+<-><->
+      
+l.128 ... We notice that for $\forall U \subset Y$
+                                                  
+Not a real error.
+
+[188]
+! Preview: Snippet 189 started.
+<-><->
+      
+l.137 Hence $
+             \alpha_U$ is isomorphism since the other two are isomporphisms.
+Not a real error.
+
+! Preview: Snippet 189 ended.(338603+117964x955259).
+<-><->
+      
+l.137 Hence $\alpha_U$
+                       is isomorphism since the other two are isomporphisms.
+Not a real error.
+
+[189]
+! Preview: Snippet 190 started.
+<-><->
+      
+l.139 \item(b)$
+               id: \ A\to \Gamma(X,\oda_x)$ induce a morphism: $id_*: \ X \t...
+
+Not a real error.
+
+! Preview: Snippet 190 ended.(589824+196608x6426488).
+<-><->
+      
+l.139 \item(b)$id: \ A\to \Gamma(X,\oda_x)$
+                                            induce a morphism: $id_*: \ X \t...
+
+Not a real error.
+
+[190]
+! Preview: Snippet 191 started.
+<-><->
+      
+l.139 ...to \Gamma(X,\oda_x)$ induce a morphism: $
+                                                  id_*: \ X \to Spec \  A$
+Not a real error.
+
+! Preview: Snippet 191 ended.(546132+152916x6233934).
+<-><->
+      
+l.139 ...uce a morphism: $id_*: \ X \to Spec \  A$
+                                                  
+Not a real error.
+
+[191]
+! Preview: Snippet 192 started.
+<-><->
+      
+l.141 Notice $
+              X_{f_i}=id_*^{-1}$ then $\cup X_{f_i}=id_*^{-1}(\cup D(f_i))=i...
+
+Not a real error.
+
+! Preview: Snippet 192 ended.(623265+219909x3590663).
+<-><->
+      
+l.141 Notice $X_{f_i}=id_*^{-1}$
+                                 then $\cup X_{f_i}=id_*^{-1}(\cup D(f_i))=i...
+
+Not a real error.
+
+[192]
+! Preview: Snippet 193 started.
+<-><->
+      
+l.141 Notice $X_{f_i}=id_*^{-1}$ then $
+                                       \cup X_{f_i}=id_*^{-1}(\cup D(f_i))=i...
+
+Not a real error.
+
+! Preview: Snippet 193 ended.(623265+219909x14306762).
+<-><->
+      
+l.141 ...{-1}(\cup D(f_i))=id_*^{-1}(Spec \  A)=X$
+                                                  , so $X_{f_i}$ form a cove...
+
+Not a real error.
+
+[193]
+! Preview: Snippet 194 started.
+<-><->
+      
+l.141 ...cup D(f_i))=id_*^{-1}(Spec \  A)=X$, so $
+                                                  X_{f_i}$ form a cover of $X$.
+
+Not a real error.
+
+! Preview: Snippet 194 ended.(537395+219909x1147446).
+<-><->
+      
+l.141 ...i))=id_*^{-1}(Spec \  A)=X$, so $X_{f_i}$
+                                                   form a cover of $X$.
+Not a real error.
+
+[194]
+! Preview: Snippet 195 started.
+<-><->
+      
+l.141 ... \  A)=X$, so $X_{f_i}$ form a cover of $
+                                                  X$.
+Not a real error.
+
+! Preview: Snippet 195 ended.(537395+0x700911).
+<-><->
+      
+l.141 ...  A)=X$, so $X_{f_i}$ form a cover of $X$
+                                                  .
+Not a real error.
+
+[195]
+! Preview: Snippet 196 started.
+<-><->
+      
+l.143 And $
+           X_{f_i} \cap X_{f_j}$ is quasi-compact since it is $D(f_j)$ in $X...
+
+Not a real error.
+
+! Preview: Snippet 196 ended.(537395+274353x3217446).
+<-><->
+      
+l.143 And $X_{f_i} \cap X_{f_j}$
+                                 is quasi-compact since it is $D(f_j)$ in $X...
+
+Not a real error.
+
+[196]
+! Preview: Snippet 197 started.
+<-><->
+      
+l.143 ...p X_{f_j}$ is quasi-compact since it is $
+                                                  D(f_j)$ in $X_{f_i}$. So w...
+
+Not a real error.
+
+! Preview: Snippet 197 ended.(589824+219909x1927489).
+<-><->
+      
+l.143 ...j}$ is quasi-compact since it is $D(f_j)$
+                                                   in $X_{f_i}$. So we only ...
+
+Not a real error.
+
+[197]
+! Preview: Snippet 198 started.
+<-><->
+      
+l.143 ...s quasi-compact since it is $D(f_j)$ in $
+                                                  X_{f_i}$. So we only need ...
+
+Not a real error.
+
+! Preview: Snippet 198 ended.(537395+219909x1147446).
+<-><->
+      
+l.143 ...compact since it is $D(f_j)$ in $X_{f_i}$
+                                                  . So we only need to prove...
+
+Not a real error.
+
+[198]
+! Preview: Snippet 199 started.
+<-><->
+      
+l.143 ... in $X_{f_i}$. So we only need to prove $
+                                                  \Gamma(X_{f_i}, \oda_{X_{f...
+
+Not a real error.
+
+! Preview: Snippet 199 ended.(589824+335521x6287894).
+<-><->
+      
+l.143 ...$\Gamma(X_{f_i}, \oda_{X_{f_i}})=A_{f_i}$
+                                                  , which has been proved in...
+
+Not a real error.
+
+[199]
+! Preview: Snippet 200 started.
+<-><->
+      
+l.144 ...fine the property P of affine open sets $
+                                                  V$ of $Y$ bo be the proper...
+
+Not a real error.
+
+! Preview: Snippet 200 ended.(537395+0x620037).
+<-><->
+      
+l.144 ...ne the property P of affine open sets $V$
+                                                   of $Y$ bo be the property...
+
+Not a real error.
+
+[200]
+! Preview: Snippet 201 started.
+<-><->
+      
+l.144 ...e property P of affine open sets $V$ of $
+                                                  Y$ bo be the property that...
+
+Not a real error.
+
+! Preview: Snippet 201 ended.(537395+0x617898).
+<-><->
+      
+l.144 ...property P of affine open sets $V$ of $Y$
+                                                   bo be the property that $...
+
+Not a real error.
+
+[201]
+! Preview: Snippet 202 started.
+<-><->
+      
+l.144 ...sets $V$ of $Y$ bo be the property that $
+                                                  f^{-1}(V)$ can be covered ...
+
+Not a real error.
+
+! Preview: Snippet 202 ended.(623265+196608x2427056).
+<-><->
+      
+l.144 ...f $Y$ bo be the property that $f^{-1}(V)$
+                                                   can be covered by open af...
+
+Not a real error.
+
+[202]
+! Preview: Snippet 203 started.
+<-><->
+      
+l.144 ...$ can be covered by open affine subsets $
+                                                  U_i=Spec \  A_J$ and $A_J$...
+
+Not a real error.
+
+! Preview: Snippet 203 ended.(537395+152916x4595613).
+<-><->
+      
+l.144 ... by open affine subsets $U_i=Spec \  A_J$
+                                                   and $A_J$ finite generate...
+
+Not a real error.
+
+[203]
+! Preview: Snippet 204 started.
+<-><->
+      
+l.144 ...en affine subsets $U_i=Spec \  A_J$ and $
+                                                  A_J$ finite generated over...
+
+Not a real error.
+
+! Preview: Snippet 204 ended.(537395+117964x963559).
+<-><->
+      
+l.144 ...ffine subsets $U_i=Spec \  A_J$ and $A_J$
+                                                   finite generated over $B$.
+Not a real error.
+
+[204]
+! Preview: Snippet 205 started.
+<-><->
+      
+l.144 ...\  A_J$ and $A_J$ finite generated over $
+                                                  B$.
+Not a real error.
+
+! Preview: Snippet 205 ended.(537395+0x624680).
+<-><->
+      
+l.144 ... A_J$ and $A_J$ finite generated over $B$
+                                                  .
+Not a real error.
+
+[205]
+! Preview: Snippet 206 started.
+<-><->
+      
+l.146 Then if $
+               Spec \ A$ has the property, we have $f^{-1}(Spec  \ A_f)=\cup...
+
+Not a real error.
+
+! Preview: Snippet 206 ended.(537395+152916x2428084).
+<-><->
+      
+l.146 Then if $Spec \ A$
+                         has the property, we have $f^{-1}(Spec  \ A_f)=\cup...
+
+Not a real error.
+
+[206]
+! Preview: Snippet 207 started.
+<-><->
+      
+l.146 ...if $Spec \ A$ has the property, we have $
+                                                  f^{-1}(Spec  \ A_f)=\cup(S...
+
+Not a real error.
+
+! Preview: Snippet 207 ended.(623265+286902x9724581).
+<-><->
+      
+l.146 ...f^{-1}(Spec  \ A_f)=\cup(Spec \ B_{i_f})$
+                                                   and hence have the proper...
+
+Not a real error.
+
+[207]
+! Preview: Snippet 208 started.
+<-><->
+      
+l.146 ...property. And notice that a finite type $
+                                                  Spec (A_f)$ algebra is als...
+
+Not a real error.
+
+! Preview: Snippet 208 ended.(589824+219909x3128499).
+<-><->
+      
+l.146 ...nd notice that a finite type $Spec (A_f)$
+                                                   algebra is also a $Spec \...
+
+Not a real error.
+
+[208]
+! Preview: Snippet 209 started.
+<-><->
+      
+l.146 ...ite type $Spec (A_f)$ algebra is also a $
+                                                  Spec \ A$ algebra, so this...
+
+Not a real error.
+
+! Preview: Snippet 209 ended.(537395+152916x2428084).
+<-><->
+      
+l.146 ...$Spec (A_f)$ algebra is also a $Spec \ A$
+                                                   algebra, so this property...
+
+Not a real error.
+
+[209]
+! Preview: Snippet 210 started.
+<-><->
+      
+l.148 \item (a)First we reduce $
+                                Y$ to affine schemes. Let $X_i$ an affine op...
+
+Not a real error.
+
+! Preview: Snippet 210 ended.(537395+0x617898).
+<-><->
+      
+l.148 \item (a)First we reduce $Y$
+                                   to affine schemes. Let $X_i$ an affine op...
+
+Not a real error.
+
+[210]
+! Preview: Snippet 211 started.
+<-><->
+      
+l.148 ...st we reduce $Y$ to affine schemes. Let $
+                                                  X_i$ an affine open cover ...
+
+Not a real error.
+
+! Preview: Snippet 211 ended.(537395+117964x861510).
+<-><->
+      
+l.148 ...e reduce $Y$ to affine schemes. Let $X_i$
+                                                   an affine open cover of $...
+
+Not a real error.
+
+[211]
+! Preview: Snippet 212 started.
+<-><->
+      
+l.148 ...emes. Let $X_i$ an affine open cover of $
+                                                  X$. then $p_2: \ X \times ...
+
+Not a real error.
+
+! Preview: Snippet 212 ended.(537395+0x700911).
+<-><->
+      
+l.148 ...es. Let $X_i$ an affine open cover of $X$
+                                                  . then $p_2: \ X \times _Y...
+
+Not a real error.
+
+[212]
+! Preview: Snippet 213 started.
+<-><->
+      
+l.148 ...$X_i$ an affine open cover of $X$. then $
+                                                  p_2: \ X \times _Y Spec  \...
+
+Not a real error.
+
+! Preview: Snippet 213 ended.(623265+196608x10461129).
+<-><->
+      
+l.148 ...\ X \times _Y Spec  \ k(y) \to f^{-1}(y)$
+                                                   is an isomorphism if thei...
+
+Not a real error.
+
+[213]
+! Preview: Snippet 214 started.
+<-><->
+      
+l.148 ...an isomorphism if their restrictions on $
+                                                  X_i \times  _Y \ Spec  \ k...
+
+Not a real error.
+
+! Preview: Snippet 214 ended.(589824+196608x5839119).
+<-><->
+      
+l.148 ...ctions on $X_i \times  _Y \ Spec  \ k(y)$
+                                                   are isomorphisms. Hence w...
+
+Not a real error.
+
+[214]
+! Preview: Snippet 215 started.
+<-><->
+      
+l.148 ...$ are isomorphisms. Hence we can assume $
+                                                  X$ affine.
+Not a real error.
+
+! Preview: Snippet 215 ended.(537395+0x700911).
+<-><->
+      
+l.148 ...are isomorphisms. Hence we can assume $X$
+                                                   affine.
+Not a real error.
+
+[215]
+! Preview: Snippet 216 started.
+<-><->
+      
+l.150 Now let $
+               X=Spec \  B$, $Y=Spec \  A$, $y=Spec \ (A_p/pA_p)$ while $p$ ...
+
+Not a real error.
+
+! Preview: Snippet 216 ended.(537395+152916x4212238).
+<-><->
+      
+l.150 Now let $X=Spec \  B$
+                           , $Y=Spec \  A$, $y=Spec \ (A_p/pA_p)$ while $p$ ...
+
+Not a real error.
+
+[216]
+! Preview: Snippet 217 started.
+<-><->
+      
+l.150 Now let $X=Spec \  B$, $
+                              Y=Spec \  A$, $y=Spec \ (A_p/pA_p)$ while $p$ ...
+
+Not a real error.
+
+! Preview: Snippet 217 ended.(537395+152916x4081802).
+<-><->
+      
+l.150 Now let $X=Spec \  B$, $Y=Spec \  A$
+                                          , $y=Spec \ (A_p/pA_p)$ while $p$ ...
+
+Not a real error.
+
+[217]
+! Preview: Snippet 218 started.
+<-><->
+      
+l.150 Now let $X=Spec \  B$, $Y=Spec \  A$, $
+                                             y=Spec \ (A_p/pA_p)$ while $p$ ...
+
+Not a real error.
+
+! Preview: Snippet 218 ended.(589824+219909x6441619).
+<-><->
+      
+l.150 ... B$, $Y=Spec \  A$, $y=Spec \ (A_p/pA_p)$
+                                                   while $p$ is a prime idea...
+
+Not a real error.
+
+[218]
+! Preview: Snippet 219 started.
+<-><->
+      
+l.150 ...Spec \  A$, $y=Spec \ (A_p/pA_p)$ while $
+                                                  p$ is a prime ideal in $A$...
+
+Not a real error.
+
+! Preview: Snippet 219 ended.(338603+152916x386477).
+<-><->
+      
+l.150 ...ec \  A$, $y=Spec \ (A_p/pA_p)$ while $p$
+                                                   is a prime ideal in $A$. ...
+
+Not a real error.
+
+[219]
+! Preview: Snippet 220 started.
+<-><->
+      
+l.150 ..._p/pA_p)$ while $p$ is a prime ideal in $
+                                                  A$. Then $X_y=Spec \ (B_p/...
+
+Not a real error.
+
+! Preview: Snippet 220 ended.(537395+0x577257).
+<-><->
+      
+l.150 .../pA_p)$ while $p$ is a prime ideal in $A$
+                                                  . Then $X_y=Spec \ (B_p/pB...
+
+Not a real error.
+
+[220]
+! Preview: Snippet 221 started.
+<-><->
+      
+l.150 ...while $p$ is a prime ideal in $A$. Then $
+                                                  X_y=Spec \ (B_p/pB_p)$. $p...
+
+Not a real error.
+
+! Preview: Snippet 221 ended.(589824+219909x7019423).
+<-><->
+      
+l.150 ...deal in $A$. Then $X_y=Spec \ (B_p/pB_p)$
+                                                  . $p_2$ is injective since...
+
+Not a real error.
+
+[221]
+! Preview: Snippet 222 started.
+<-><->
+      
+l.150 ...l in $A$. Then $X_y=Spec \ (B_p/pB_p)$. $
+                                                  p_2$ is injective since it...
+
+Not a real error.
+
+! Preview: Snippet 222 ended.(338603+152916x697777).
+<-><->
+      
+l.150 ... $A$. Then $X_y=Spec \ (B_p/pB_p)$. $p_2$
+                                                   is injective since it fac...
+
+Not a real error.
+
+[222]
+! Preview: Snippet 223 started.
+<-><->
+      
+l.150 ...$ is injective since it factors through $
+                                                  Spec \ (B_p)$ and those tw...
+
+Not a real error.
+
+! Preview: Snippet 223 ended.(589824+219909x3347922).
+<-><->
+      
+l.150 ...e since it factors through $Spec \ (B_p)$
+                                                   and those two map are bot...
+
+Not a real error.
+
+[223]
+! Preview: Snippet 224 started.
+<-><->
+      
+l.150 ...$ and those two map are both injective. $
+                                                  im(p_2)=\{ q\subset B|pB \...
+
+Not a real error.
+
+! Preview: Snippet 224 ended.(623265+196608x23071846).
+<-><->
+      
+l.150 ...\cap A\}=\{q\in B|q \cap A=p\}=f^{-1}(p)$
+                                                  .
+Not a real error.
+
+[224]
+! Preview: Snippet 225 started.
+<-><->
+      
+l.152 So $
+          p_2$ is bijective.
+Not a real error.
+
+! Preview: Snippet 225 ended.(338603+152916x697777).
+<-><->
+      
+l.152 So $p_2$
+               is bijective.
+Not a real error.
+
+[225]
+! Preview: Snippet 226 started.
+<-><->
+      
+l.154 And for $
+               \forall t \in B_p$ and $t \notin pB_p$, then let $t_0=ts \in ...
+
+Not a real error.
+
+! Preview: Snippet 226 ended.(546133+219909x2574342).
+<-><->
+      
+l.154 And for $\forall t \in B_p$
+                                  and $t \notin pB_p$, then let $t_0=ts \in ...
+
+Not a real error.
+
+[226]
+! Preview: Snippet 227 started.
+<-><->
+      
+l.154 And for $\forall t \in B_p$ and $
+                                       t \notin pB_p$, then let $t_0=ts \in ...
+
+Not a real error.
+
+! Preview: Snippet 227 ended.(589824+219909x2523911).
+<-><->
+      
+l.154 ...r $\forall t \in B_p$ and $t \notin pB_p$
+                                                  , then let $t_0=ts \in B$a...
+
+Not a real error.
+
+[227]
+! Preview: Snippet 228 started.
+<-><->
+      
+l.154 ... \in B_p$ and $t \notin pB_p$, then let $
+                                                  t_0=ts \in B$and $s \in A-p$.
+
+Not a real error.
+
+! Preview: Snippet 228 ended.(537395+117964x3851850).
+<-><->
+      
+l.154 ... $t \notin pB_p$, then let $t_0=ts \in B$
+                                                  and $s \in A-p$.
+Not a real error.
+
+[228]
+! Preview: Snippet 229 started.
+<-><->
+      
+l.154 ...notin pB_p$, then let $t_0=ts \in B$and $
+                                                  s \in A-p$.
+Not a real error.
+
+! Preview: Snippet 229 ended.(537395+152916x3248835).
+<-><->
+      
+l.154 ...$, then let $t_0=ts \in B$and $s \in A-p$
+                                                  .
+Not a real error.
+
+[229]
+! Preview: Snippet 230 started.
+<-><->
+      
+l.156 Then $
+            D(t)=p_2^{-1}(D(t_0)\cap f^{-1}(y))$. Hence $p_2$ is open and he...
+
+Not a real error.
+
+! Preview: Snippet 230 ended.(663372+196608x9237062).
+<-><->
+      
+l.156 Then $D(t)=p_2^{-1}(D(t_0)\cap f^{-1}(y))$
+                                                . Hence $p_2$ is open and he...
+
+Not a real error.
+
+[230]
+! Preview: Snippet 231 started.
+<-><->
+      
+l.156 ...=p_2^{-1}(D(t_0)\cap f^{-1}(y))$. Hence $
+                                                  p_2$ is open and hence is ...
+
+Not a real error.
+
+! Preview: Snippet 231 ended.(338603+152916x697777).
+<-><->
+      
+l.156 ...^{-1}(D(t_0)\cap f^{-1}(y))$. Hence $p_2$
+                                                   is open and hence is an i...
+
+Not a real error.
+
+[231]
+! Preview: Snippet 232 started.
+<-><->
+      
+l.158 \item (b)$
+                Spec \ k[s,t]/(s-t^2) \times _{Spec \  k[s]} Spec  \ k[s]/s-...
+
+Not a real error.
+
+! Preview: Snippet 232 ended.(623265+253407x22297424).
+<-><->
+      
+l.158 ...} Spec  \ k[s]/s-a)=Spec  \ k[t]/(t^2-a)$
+                                                  
+Not a real error.
+
+[232]
+! Preview: Snippet 233 started.
+<-><->
+      
+l.160 For $
+           a \neq 0$,$Spec  \ k[t]/(t^2-a)= \coprod Spec  \ k[t]/(t \pm \sqr...
+
+Not a real error.
+
+! Preview: Snippet 233 ended.(546133+152916x1825065).
+<-><->
+      
+l.160 For $a \neq 0$
+                    ,$Spec  \ k[t]/(t^2-a)= \coprod Spec  \ k[t]/(t \pm \sqr...
+
+Not a real error.
+
+[233]
+! Preview: Snippet 234 started.
+<-><->
+      
+l.160 For $a \neq 0$,$
+                      Spec  \ k[t]/(t^2-a)= \coprod Spec  \ k[t]/(t \pm \sqr...
+
+Not a real error.
+
+! Preview: Snippet 234 ended.(629361+196613x14098323).
+<-><->
+      
+l.160 ...)= \coprod Spec  \ k[t]/(t \pm \sqrt{a})$
+                                                   has two points with resid...
+
+Not a real error.
+
+[234]
+! Preview: Snippet 235 started.
+<-><->
+      
+l.160 ... \sqrt{a})$ has two points with residue $
+                                                  k$.
+Not a real error.
+
+! Preview: Snippet 235 ended.(546132+0x426891).
+<-><->
+      
+l.160 ...sqrt{a})$ has two points with residue $k$
+                                                  .
+Not a real error.
+
+[235]
+! Preview: Snippet 236 started.
+<-><->
+      
+l.162 For $
+           a=0$, $ k[t]/(t^2)$ is a one-point but not reduced scheme.
+Not a real error.
+
+! Preview: Snippet 236 ended.(506811+0x1825065).
+<-><->
+      
+l.162 For $a=0$
+               , $ k[t]/(t^2)$ is a one-point but not reduced scheme.
+Not a real error.
+
+[236]
+! Preview: Snippet 237 started.
+<-><->
+      
+l.162 For $a=0$, $
+                   k[t]/(t^2)$ is a one-point but not reduced scheme.
+Not a real error.
+
+! Preview: Snippet 237 ended.(623265+196608x2706071).
+<-><->
+      
+l.162 For $a=0$, $ k[t]/(t^2)$
+                               is a one-point but not reduced scheme.
+Not a real error.
+
+[237]
+! Preview: Snippet 238 started.
+<-><->
+      
+l.164 And $
+           Spec \ k[s,t]/(s-t^2) \times _{Spec \  k[s]} Spec  \ k(s)= Spec  ...
+
+Not a real error.
+
+! Preview: Snippet 238 ended.(623265+253407x20636554).
+<-><->
+      
+l.164 ...k[s]} Spec  \ k(s)= Spec  k(s,t)/(s-t^2)$
+                                                   is the spectrum of a fiel...
+
+Not a real error.
+
+[238]
+! Preview: Snippet 239 started.
+<-><->
+      
+l.164 ...of a field with degree 2 extension over $
+                                                  k(s)=k(\xi)$.
+Not a real error.
+
+! Preview: Snippet 239 ended.(589824+196608x3824490).
+<-><->
+      
+l.164 ...ith degree 2 extension over $k(s)=k(\xi)$
+                                                  .
+Not a real error.
+
+[239]
+! Preview: Snippet 240 started.
+<-><->
+      
+l.166 \item 3.5(a) By 3.10, we can assume $
+                                           Y=Spec \  K$ with $K$ a field, $X...
+
+Not a real error.
+
+! Preview: Snippet 240 ended.(537395+152916x4216151).
+<-><->
+      
+l.166 ...5(a) By 3.10, we can assume $Y=Spec \  K$
+                                                   with $K$ a field, $X$ fin...
+
+Not a real error.
+
+[240]
+! Preview: Snippet 241 started.
+<-><->
+      
+l.166 ... 3.10, we can assume $Y=Spec \  K$ with $
+                                                  K$ a field, $X$ finite $K$...
+
+Not a real error.
+
+! Preview: Snippet 241 ended.(537395+0x711606).
+<-><->
+      
+l.166 ....10, we can assume $Y=Spec \  K$ with $K$
+                                                   a field, $X$ finite $K$ a...
+
+Not a real error.
+
+[241]
+! Preview: Snippet 242 started.
+<-><->
+      
+l.166 ... assume $Y=Spec \  K$ with $K$ a field, $
+                                                  X$ finite $K$ affine schem...
+
+Not a real error.
+
+! Preview: Snippet 242 ended.(537395+0x700911).
+<-><->
+      
+l.166 ...ssume $Y=Spec \  K$ with $K$ a field, $X$
+                                                   finite $K$ affine scheme....
+
+Not a real error.
+
+[242]
+! Preview: Snippet 243 started.
+<-><->
+      
+l.166 ...Spec \  K$ with $K$ a field, $X$ finite $
+                                                  K$ affine scheme. For ever...
+
+Not a real error.
+
+! Preview: Snippet 243 ended.(537395+0x711606).
+<-><->
+      
+l.166 ...ec \  K$ with $K$ a field, $X$ finite $K$
+                                                   affine scheme. For every ...
+
+Not a real error.
+
+[243]
+! Preview: Snippet 244 started.
+<-><->
+      
+l.166 ...scheme. For every irreducible component $
+                                                  X_i=Spec  \ R_i$. We have ...
+
+Not a real error.
+
+! Preview: Snippet 244 ended.(537395+152916x4556705).
+<-><->
+      
+l.166 ...y irreducible component $X_i=Spec  \ R_i$
+                                                  . We have $R_i$ a finite $...
+
+Not a real error.
+
+[244]
+! Preview: Snippet 245 started.
+<-><->
+      
+l.166 ...le component $X_i=Spec  \ R_i$. We have $
+                                                  R_i$ a finite $K$-algebra ...
+
+Not a real error.
+
+! Preview: Snippet 245 ended.(537395+117964x808548).
+<-><->
+      
+l.166 ...omponent $X_i=Spec  \ R_i$. We have $R_i$
+                                                   a finite $K$-algebra and ...
+
+Not a real error.
+
+[245]
+! Preview: Snippet 246 started.
+<-><->
+      
+l.166 ..._i=Spec  \ R_i$. We have $R_i$ a finite $
+                                                  K$-algebra and hence an al...
+
+Not a real error.
+
+! Preview: Snippet 246 ended.(537395+0x711606).
+<-><->
+      
+l.166 ...=Spec  \ R_i$. We have $R_i$ a finite $K$
+                                                  -algebra and hence an alge...
+
+Not a real error.
+
+[246]
+! Preview: Snippet 247 started.
+<-><->
+      
+l.166 ...a and hence an algebraic extension over $
+                                                  K$. So the point has only ...
+
+Not a real error.
+
+! Preview: Snippet 247 ended.(537395+0x711606).
+<-><->
+      
+l.166 ...and hence an algebraic extension over $K$
+                                                  . So the point has only on...
+
+Not a real error.
+
+[247]
+! Preview: Snippet 248 started.
+<-><->
+      
+l.166 ...K$. So the point has only one point. SO $
+                                                  X$ has finite opints.
+Not a real error.
+
+! Preview: Snippet 248 ended.(537395+0x700911).
+<-><->
+      
+l.166 .... So the point has only one point. SO $X$
+                                                   has finite opints.
+Not a real error.
+
+[248]
+! Preview: Snippet 249 started.
+<-><->
+      
+l.167 \item 3.5(c) The constant map $
+                                     Spec \  F_p[t] \to Spec  \ F_p$ is an e...
+
+Not a real error.
+
+! Preview: Snippet 249 ended.(589824+219909x7254180).
+<-><->
+      
+l.167 ...tant map $Spec \  F_p[t] \to Spec  \ F_p$
+                                                   is an example.
+Not a real error.
+
+[249] ) 
+Here is how much of TeX's memory you used:
+ 452 strings out of 482171
+ 8851 string characters out of 5930313
+ 278349 words of memory out of 5000000
+ 14802 multiletter control sequences out of 15000+600000
+ 12672 words of font info for 49 fonts, out of 8000000 for 9000
+ 957 hyphenation exceptions out of 8191
+ 41i,14n,73p,989b,940s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on _region_.dvi (249 pages, 35216 bytes).
