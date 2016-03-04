@@ -1,0 +1,109 @@
+\documentclass[10pt,letterpaper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[parfill]{parskip} % line break instead of indentation
+\usepackage[margin=1in]{geometry}
+\usepackage{float}  % use attribute [H] to force images to stay where they should be
+\usepackage{secdot} % dot after section number
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath,amsthm,tikz-cd}
+\usepackage{mathtools}
+\usepackage{empheq}
+\usepackage{enumerate}
+\usepackage{nicefrac}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{hyperref}
+\usepackage{tikz}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\C}{\mathbb{C}}
+
+\renewcommand{\O}{\mathcal{O}} 
+
+\makeatletter
+\newcommand\course[1]{\renewcommand\@course{#1}}
+\newcommand\@course{}
+\newcommand\term[1]{\renewcommand\@term{#1}}
+\newcommand\@term{}
+
+\renewcommand{\@maketitle}{%
+  {\bfseries \@course, \@term \hfill \@author}\
+  \begin{center}
+    {\Large \textbf \@title}
+  \end{center}
+}
+\makeatother
+
+\DeclarePairedDelimiter\ceil{\lceil}{\rceil}
+\DeclarePairedDelimiter\floor{\lfloor}{\rfloor}
+
+% use solid black square instead of box for QED
+\renewcommand\qedsymbol{$\blacksquare$}
+
+
+% bold title, italic text, extra space above and below;
+\theoremstyle{plain}
+\newtheorem{thm}{Theorem}[section]
+\newtheorem{lem}[thm]{Lemma}
+\newtheorem{prop}[thm]{Proposition}
+\newtheorem*{cor}{Corollary}
+
+% bold title, upright text, extra space above and below;
+\theoremstyle{definition}
+\newtheorem{defn}{Definition}[section]
+\newtheorem{exmp}{Example}[section]
+\newtheorem{xca}[exmp]{Exercise}
+
+% italic title, upright text, no extra space above or below.
+\theoremstyle{remark}
+\newtheorem*{remark}{Remark}
+\newtheorem*{claim}{Claim}
+\newtheorem*{note}{Note}
+\newtheorem{case}{Case}
+
+
+% ================================================================================
+\begin{document}
+\course{Representations of Lie groups}
+\term{}
+\title{A criterion for semi-simple Lie algebra}
+\author{Yu Zhao}
+\maketitle
+
+For a semisimple Lie algebra $\mathfrak{g}$ over a field $K$ of chracteristic $0$, we know that for all finite $\mathfrak{g}$ module , we have $H^{1}(\mathfrak{g}, A)=0$. And now we are going to prove the converse of this result is also true:
+
+\begin{thm} For a Lie algebra $\mathfrak{g}$, if for all finite $\mathfrak{g}$-module $A$, we have that $H^{1}(\mathfrak{g}, A)=0$(*),then $\mathfrak{g}$ is semi-simple.
+\end{thm}
+
+
+Instead, we prove that if (*) condition holds for $\mathfrak{g}$, then for any exact sequence of $\mathfrak{g}$-module $0\to A' \to A \to A''\to 0$ will split. Thus we can decompose $\mathfrak{g}$ itself into simple Lie algebras with the representation $ad$.
+
+For $\mathfrak{g}-$module $A,B$, consider $Hom_{K}(A,B)$ with the $\mathfrak{g}$-module structure $(g\phi)(a)=g(\phi(a))-\phi(ga)$. Then $Hom_{\mathfrak{g}}(A,B)=\{a\in Hom_{K}(A,B)| ga=0 \ , \forall g\}=Hom_{\mathfrak{g}}(K,Hom_{K}(A,B))=H^{0}(\mathfrak{g},Hom_{K}(A,B))$
+
+Notice that $0\to Hom_{K}(A'',A')\to Hom_{K}(A,A') \to Hom_{K}(A,A')\to 0$. So we have the following exact sequence:
+
+
+$0\to H^{0}(\mathfrak{g},Hom_{K}(A'',A'))\to H^{0}(\mathfrak{g},Hom_{K}(A,A'))  \to H^{0}(\mathfrak{g},Hom_{K}(A',A'))\to 0$. 
+
+Since $H^{1}(\mathfrak{g}, Hom_{K}(A'',A'))=0$. Thus $Hom_{\mathfrak{g}}(A,A')\to Hom_{\mathfrak{g}}(A',A')$ is surjective, consdier one element of  $Hom_{\mathfrak{g}}(A,A')$ which maps to identity of $A'$, then it forms a split of the exact sequence.
+
+The first extension of this theorem is that we can consider the cohomology of simple $\mathfrak{g}$-modules instead of all $\mathfrak{g}$-modules. For a module $A$ which is not simple, we can  consider a submodule $A'$ of $A$ and th exact sequence $0\to A' \to A \to A/A'$. Then we have $H^{1}(\mathfrak{g}, A')\to H^{1}(\mathfrak{g}, A) \to H^{1}(\mathfrak{g}, A/A')$. Thus $H^{1}(\mathfrak{g}, A)=0$ if $H^{1}(\mathfrak{g}, A')=0$ and $ H^{1}(\mathfrak{g}, A/A')=0$. With the induction on the dimension, we have the following result:
+
+\begin{lem}
+  If for any maximal ideal $\mathfrak{h}$ of $\mathfrak{g}$, we have $H^{1}(\mathfrak{g},\mathfrak{g}/\mathfrak{h})=0$, then for all finite modules $A$, we have $H^{1}(\mathfrak{g},A)=0$
+\end{lem}
+
+\begin{cor}
+   For a Lie algebra $\mathfrak{g}$, if for all maximal ideals  $\mathfrak{h}$, we have that $H^{1}(\mathfrak{g}, \mathfrak{g}/\mathfrak{h})=0$, then $\mathfrak{g}$ is semi-simple.
+\end{cor}
+
+
+\end{document}
+
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:

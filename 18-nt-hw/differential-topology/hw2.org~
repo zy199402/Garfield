@@ -1,0 +1,11 @@
+# Title: Homework
+# Author:
+
+$\newcommand{\N}{\mathbb{N}}$
+$\newcommand{\Z}{\mathbb{Z}}$
+$\newcommand{\Q}{\mathbb{Q}}$
+$\newcommand{\R}{\mathbb{R}}$
+$\newcommand{\C}{\mathbb{C}}$
+$\renewcommand{\O}{\mathcal{O}}$ 
+
+We consider the map $\phi$ from $U=\{x\in \R^n|= 0<|X|<2\}$ to $S^{n-1}$ by $\phi(x)=x/|x|$. Then $\phi$ is a restriction map. And consider $\phi+c$ for $c$ small enough

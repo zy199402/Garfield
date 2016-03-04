@@ -1,0 +1,102 @@
+\documentclass[10pt,letterpaper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[parfill]{parskip} % line break instead of indentation
+\usepackage[margin=1in]{geometry}
+\usepackage{float}  % use attribute [H] to force images to stay where they should be
+\usepackage{secdot} % dot after section number
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath,amsthm}
+\usepackage{mathtools}
+\usepackage{empheq}
+\usepackage{enumerate}
+\usepackage{nicefrac}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{hyperref}
+\usepackage{tikz}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\C}{\mathbb{C}}
+
+\renewcommand{\O}{\mathcal{O}} 
+
+\makeatletter
+\newcommand\course[1]{\renewcommand\@course{#1}}
+\newcommand\@course{}
+\newcommand\term[1]{\renewcommand\@term{#1}}
+\newcommand\@term{}
+
+\renewcommand{\@maketitle}{%
+  {\bfseries \@course, \@term \hfill \@author}\
+  \begin{center}
+    {\Large \textbf \@title}
+  \end{center}
+}
+\makeatother
+
+\DeclarePairedDelimiter\ceil{\lceil}{\rceil}
+\DeclarePairedDelimiter\floor{\lfloor}{\rfloor}
+
+% use solid black square instead of box for QED
+\renewcommand\qedsymbol{$\blacksquare$}
+
+
+% bold title, italic text, extra space above and below;
+\theoremstyle{plain}
+\newtheorem{thm}{Theorem}[section]
+\newtheorem{lem}[thm]{Lemma}
+\newtheorem{prop}[thm]{Proposition}
+\newtheorem*{cor}{Corollary}
+
+% bold title, upright text, extra space above and below;
+\theoremstyle{definition}
+\newtheorem{defn}{Definition}[section]
+\newtheorem{exmp}{Example}[section]
+\newtheorem{xca}[exmp]{Exercise}
+
+% italic title, upright text, no extra space above or below.
+\theoremstyle{remark}
+\newtheorem*{remark}{Remark}
+\newtheorem*{claim}{Claim}
+\newtheorem*{note}{Note}
+\newtheorem{case}{Case}
+
+
+% ================================================================================
+\begin{document}
+\course{}
+\term{}
+\title{Homework  Solutions}
+\author{}
+\maketitle
+\begin{itemize}
+\item We define the product structure of group-like elements by the action $\nabla$, i.e. 
+
+\begin{align*}
+\cdot : G\times G \to  G \\
+a \cdot b= \nabla (a \otimes b)
+\end{align*}
+
+
+We need to prove that this action is well defined, i.e. if $a$, $b$ are two  group like elements, then $a\cdot b$ is also group like. In fact $\Delta\nabla(a\otimes b)=(\nabla\otimes\nabla)(id\otimes \tau \otimes id)(\Delta \otimes \Delta) (a \otimes b)=(\nabla \otimes \nabla) (a\otimes b) \otimes (a \otimes b)$. And $\epsilon (1) (a\cdot b)= \epsilon(a)\cdot \epsilon(b)=1$. Hence $a\cdot b$ is also group like.
+
+Then $\eta(1)$ is a unit in this action and this action is associative since $\nabla$ is a unit associative algebra. Besides, for $a \in G$, $\nabla (Sa \otimes a)= \eta\epsilon(a)=\eta(1) $. Hence $S$ form the inverse operation. Hence all group like elements form a group.
+
+\item 3.3
+$[a,[b,c]]= [[a,b],c]+ [c,[a,b]] \Leftrightarrow [a,[b,c]]-[[a,b],c]-[b,[a,c]]=0 \Leftrightarrow [a,[b,c]]+[c,[a,b]]+[b,[c,a]]=0 $ And through the jacobi identity we know that $[c,[a,b]]= [[[c,a],b]+[b,[c,a]]$ and hence $[[a,b],c]=-[b,[a,c]]+[b,[a,c]]$ which is equivalent to the fact that $ad[ab]=ad(a)ad(b)-ad(b)ad(a)$
+
+\item 4.11
+Notice that $dim V[k]$ is an additive fuction for the representations of $\mathfrak{sl}(2,\C)$. Hence $dim V[k]=\sum n_{j}dim V_{j}[k]=\sum_{j=0}n_{k+2j}$. Hence $dim V[k+2]-dim V[k]=n_{k} (*U)$. And by sum formula (*) over $k$, we got the other two formulas.
+
+\end{itemize} 
+
+
+\end{document}
+
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:

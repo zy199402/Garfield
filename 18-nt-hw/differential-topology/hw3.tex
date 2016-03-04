@@ -1,0 +1,83 @@
+\documentclass[10pt,letterpaper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[parfill]{parskip} % line break instead of indentation
+\usepackage[margin=1in]{geometry}
+\usepackage{float}  % use attribute [H] to force images to stay where they should be
+\usepackage{secdot} % dot after section number
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath,amsthm}
+\usepackage{mathtools}
+\usepackage{empheq}
+\usepackage{enumerate}
+\usepackage{nicefrac}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{hyperref}
+\usepackage{tikz}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\C}{\mathbb{C}}
+
+\renewcommand{\O}{\mathcal{O}} 
+
+\makeatletter
+\newcommand\course[1]{\renewcommand\@course{#1}}
+\newcommand\@course{}
+\newcommand\term[1]{\renewcommand\@term{#1}}
+\newcommand\@term{}
+
+\renewcommand{\@maketitle}{%
+  {\bfseries \@course, \@term \hfill \@author}\
+  \begin{center}
+    {\Large \textbf \@title}
+  \end{center}
+}
+\makeatother
+
+\DeclarePairedDelimiter\ceil{\lceil}{\rceil}
+\DeclarePairedDelimiter\floor{\lfloor}{\rfloor}
+
+% use solid black square instead of box for QED
+\renewcommand\qedsymbol{$\blacksquare$}
+
+
+% bold title, italic text, extra space above and below;
+\theoremstyle{plain}
+\newtheorem{thm}{Theorem}[section]
+\newtheorem{lem}[thm]{Lemma}
+\newtheorem{prop}[thm]{Proposition}
+\newtheorem*{cor}{Corollary}
+
+% bold title, upright text, extra space above and below;
+\theoremstyle{definition}
+\newtheorem{defn}{Definition}[section]
+\newtheorem{exmp}{Example}[section]
+\newtheorem{xca}[exmp]{Exercise}
+
+% italic title, upright text, no extra space above or below.
+\theoremstyle{remark}
+\newtheorem*{remark}{Remark}
+\newtheorem*{claim}{Claim}
+\newtheorem*{note}{Note}
+\newtheorem{case}{Case}
+
+
+% ================================================================================
+\begin{document}
+\course{Differential topology}
+\term{}
+\title{Homework  Solutions}
+\author{Yu Zhao}
+\maketitle
+
+We consider the map $\phi$ from $U=\{x\in \R^n|= 0<|X|<2\}$ to $S^{n-1}$ by $\phi(x)=x/|x|$. Then $\phi$ is a restriction map. And consider $\phi+c$ for $c$ small enough. Then the fixed point of $\phi+c$ is $c\lambda$ for one $\lambda>1$ and another $0> \lambda>-1$. For $\lambda>1$ The map $1-T\phi$ has positive eigenvalue on the perpendicular directions and have positive eigenvalue along the line generates by $c$ too. Hence it's sign of  determinant is 1. For the negative $\lambda$, we have all eigenvalues along the perpendicular direction are negative and still positive along $c$. Thus the lefeschetz number is $(-1)^{n-1}+1$, which  is $0$ for $n$ even, and 2 for $n$ odd.
+
+\end{document}
+
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:

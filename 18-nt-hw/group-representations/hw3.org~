@@ -1,0 +1,20 @@
+# Title:
+# Author:
+
+#+LaTeX_Header:\newcommand{\N}{\mathbb{N}}
+#+LaTeX_Header:\newcommand{\Z}{\mathbb{Z}}
+#+LaTeX_Header:\newcommand{\Q}{\mathbb{Q}}
+#+LaTeX_Header:\newcommand{\R}{\mathbb{R}}
+#+LaTeX_Header:\newcommand{\C}{\mathbb{C}}
+#+LaTeX_Header:\renewcommand{\O}{\mathcal{O}}
+
+* 2/23(1)
+
+We define the product structure of group-like elements by the action $\nabla$, i.e. 
+
+\begin{math}
+\times: G\times F \to G
+\end{math}
+* 2/23(2)
+
+Let 

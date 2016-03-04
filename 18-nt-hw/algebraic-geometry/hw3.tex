@@ -1,0 +1,207 @@
+\documentclass[10pt,letterpaper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[parfill]{parskip} % line break instead of indentation
+\usepackage[margin=1in]{geometry}
+\usepackage{float}  % use attribute [H] to force images to stay where they should be
+\usepackage{secdot} % dot after section number
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath,amsthm,tikz-cd}
+\usepackage{mathtools}
+\usepackage{empheq}
+\usepackage{enumerate}
+\usepackage{nicefrac}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{hyperref}
+\usepackage{tikz}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\C}{\mathbb{C}}
+
+\renewcommand{\O}{\mathcal{O}} 
+
+\makeatletter
+\newcommand\course[1]{\renewcommand\@course{#1}}
+\newcommand\@course{}
+\newcommand\term[1]{\renewcommand\@term{#1}}
+\newcommand\@term{}
+
+\renewcommand{\@maketitle}{%
+  {\bfseries \@course, \@term \hfill \@author}\
+  \begin{center}
+    {\Large \textbf \@title}
+  \end{center}
+}
+\makeatother
+
+\DeclarePairedDelimiter\ceil{\lceil}{\rceil}
+\DeclarePairedDelimiter\floor{\lfloor}{\rfloor}
+
+% use solid black square instead of box for QED
+\renewcommand\qedsymbol{$\blacksquare$}
+
+
+% bold title, italic text, extra space above and below;
+\theoremstyle{plain}
+\newtheorem{thm}{Theorem}[section]
+\newtheorem{lem}[thm]{Lemma}
+\newtheorem{prop}[thm]{Proposition}
+\newtheorem*{cor}{Corollary}
+
+% bold title, upright text, extra space above and below;
+\theoremstyle{definition}
+\newtheorem{defn}{Definition}[section]
+\newtheorem{exmp}{Example}[section]
+\newtheorem{xca}[exmp]{Exercise}
+
+% italic title, upright text, no extra space above or below.
+\theoremstyle{remark}
+\newtheorem*{remark}{Remark}
+\newtheorem*{claim}{Claim}
+\newtheorem*{note}{Note}
+\newtheorem{case}{Case}
+
+
+% ================================================================================
+\begin{document}
+\course{Algebraic Geometry}
+\term{}
+\title{Homework  Solutions}
+\author{}
+\maketitle
+\begin{itemize}
+\item 1. Here we can assume $X=S$ by base change. And because $Y$ is seperated over $X$ we can assume that $Y$ is a closed subscheme of $Y\times_{X}Y$.Thus we have the following diagram:
+
+  \begin{displaymath}
+    U \hookrightarrow X \xrightarrow{f} Y\times_{X}Y
+  \end{displaymath}
+with the image of $U$ is in $Y$ hence the image of $X$ is also in $Y$ . Notice that $X$ is a reduced scheme hence the map factors through $Y$.
+
+For non-seperated scheme. We can assume $X$ is the affine line $\mathbb{A}^{1}$ then let $Y$ be the affine line with two points at original. Then let $U$ be the affine line delete the original points. It forms a conterexample.
+ 
+For non-reduced scheme $X$ , we consider the $U=Spec k[x,y,z, y^{-1}]/(xy,x^{2})]$ and $X=Y=Spec k[x,y,z]/(xy,x^{2})$. Then $U$ is an open set of $X$ but that the morphism from $X$ to it self by mapping $x$ to $-x$ but map other elements invariant will agree on $U$.
+\item 2. Notice this question is a local question, we can aassume that  $X=Spec A$ is affine and  integral and the morphism is defined on a dense open dense subset $U$ of $X$. Then for any prime ideal $p\subset A$ we have the following diagram:
+
+  \begin{tikzcd}
+    Spec K \ar{r} \ar{rd}& U \ar{r}{f} & Y \ar{d}& \\ 
+&Spec A_{p} \ar{r} \ar[dotted]{ur}{g_{0}} & S
+  \end{tikzcd}
+
+Here $K$ is the functional field of $X$ and $g_{0}$ exists because $Y$ is proper.
+Since $X$ and $Y$ are varities, we can extend $g_{0}$ to be a neigh borhood  $V$ of $X$, with the following diagram commute: 
+
+  \begin{tikzcd}
+    Spec K \ar{r} \ar{d}& U \ar{r}{f} & Y \ar{d}& \\ 
+Spec A_{p} \ar{r} & V \ar[dotted]{ur}{g} \ar{r} & S
+  \end{tikzcd}
+
+And the map $f$ and $g$ are equal on their on their intersections because they agree on the generic point of $X$ and hence on a dense open subset of $X$. So the maximal open set must contains all the codim 1 subvarieties.
+
+The maximal domain of definition from $[x:y:z] \to [1/x:1/y:1/z]$ is $P^{2}/(\{[x:y:z]|xy=0, yz=0, zx=0\})$
+\item 4.1 Notice that finte morphism is a property preserved by base change, by using the local criterion. We only need to prove that the following diagram for every valuation ring $U$:
+
+  \begin{tikzcd}
+    Spec K \arrow{r} \ar{dr}  & Spec \ U \times_{Y} X \ar{r} \ar[shift right=1ex]{d} & Y \ar{d} \\  
+ & Spec U \ar[dotted, shift right= 1 ex]{u}{t} \ar{r} & X
+  \end{tikzcd}
+
+Notice that $Spec \ U \times_{Y} X$ is also a finite morphism over $Spec U$, hence we only need to prove the existence of the diagram 
+
+\begin{tikzcd}
+    Spec K \arrow{r} \ar{dr}  & W  \ar[shift right=1ex]{d}  \\  
+ & Spec U \ar[dotted, shift right= 1 ex]{u}{t}
+  \end{tikzcd}
+
+for any finite morphism of $W= Spec R$ over $Spec U$. 
+
+Consider the ring homomorphism $U\to R \to K$, then notice that every element of $R$ is integral over $U$, so its image is also integral over $U$, but $U$ is integral closed over $K$, hence the image of $R$ is contained in $U$, thus this map factors through $U$, hence $t$ exists form the above diagram. 
+
+\item 4.7
+  \begin{enumerate}
+  \item Finding finite affine covers $U_{i}=Spec A_{i}$ of $X$ such $U_{i}$ are invariant under the action $\sigma$. Then we define $V_{i}$ is $Spec B_{i}$ with $B_{i}=\{x\in A_{i}|\sigma(x)=x\}$. Then $B_{i}$ is a $R$ algebra. And by Noether's Theorem $B_{i}$ is a finite $\R$ algebra. Another proof is follow: We canchoose two parts of generators $T=\{1, x_{j}+\sigma(x_{j})\}$ and $S=\{\sqrt{-1},\alpha(x_{j})-x_{j}\}$ with $x_{j}$ are generators of $B_{i}$. Then let $B_{i}= R[t_{i},s_{i}s_{j}]$ with $t_{i}\in T$ and $s_{j} \in S$. Then $B_{i}$ is a finite generated subring of $a_{i}$ and let $C_{i}$ be the $B_{i}$ module generated by elements in $S$. Then $C_{i}+B_{i}=A_{i}$ and $\sigma|C_{i}=-id$ and $\sigma|B_{i}=id$. So $B_{i}$ is the ring of invariant elements.
+
+Consider the ring homomorphism $B_{i}\otimes C \xrightarrow{p}  A_{i}$. This map is surjective since $2f=(\sigma(f)+f)-i(i(\sigma(f)-f))$. And is injective since $\C =\R +i \R$, and $p(R\otimes C)$ has eigenvalue 1 with $\sigma$, and $p (R\otimes i R)$ has eigenvalue -1(*).
+
+For $U_{i}\cap U_{j}$ which is also an affine scheme. We can similarly define $V_{ij}$ to be the spectrum of invariant functions over $\sigma$. And we can prove that $V_{ij}$ is an open set of $V_{i}$. (The keypoint is that $D(f) \cup D(\sigma(f))= D(f+\sigma(f))\cup D(f\sigma(f))$, so we can cover $U_{ij}$ by the form od $D(f)$ with $f \in A_{i}$ invariant under $\sigma$, then $V_{ijf}$ form  an open cover of $V_{ij}$ and the mapping form $V_{ijf}$ to $V_{i}$ is also an open immersion. So $V_{ij}$ is also an open imersion of $v_{i}$). And then we can glue $V_{ij}$ up to the scheme $X_{o}$. And by (*) we have $X=X_{0}\times_{\R} \C$. 
+
+$X_{0}$ is seperated, we only need to point out that if $U$ is a valuation ring over $R$, then $U\otimes_{R}C$ is a valuation ring over $C$.
+
+The uniqueness of $X_{0}$ can also be checked locally, and we can check it directly by the ring embedding of $B_{i}$ in $A_{i}$.
+\item ``if'' is trivial. And the only if part is natural induced from the construction of $X_{0}$ in (*) part.
+\item $f=f_{0}\times id$. Here $id$ is the identity map from $C$ to $C$. On the other hand if we know $f$, let $Y_{i}$ be an affine cover of $Y$ invariant under $\sigma$. And let $X_{ij}$ be an affine cover of $f^{-1}(Y_{i})$. Then we can naturally induce the mapping from $X_{0_{ij}}$ to $Y_{0_{i}}$ by the mapping of invariant functions which are compatible on each open set. Hence we can induce a map from $X_{0}$ to $Y_{0}$ with those properties. 
+\item The involution $\sigma$ from $C[t]$ to $C[t]$ who mapping $i$ to $-i$ can map $t$ to $t$ or $t$ to $-t$. The ring of invariant function are $R[t]$ in the first situation and $R[it]$ in the second situation which are both isomorphic to $A_{R}^{1}$. For $CP_{1}$, we consider the morphism of involution on the functional field $C(t)$. $\sigma$ mapping $i$ to $-i$, which will map $t$ to $t$, $-t$, $t^{-1}$ and $-t^{-1}$. If $\sigma$ map $t$ to $t$ or $-t$, then the quotient scheme is $RP^{1}$, if it map $t$ to $-t^{-1}$, then we consider the map from $CP_{1}$ to $CP_{2}/(x^{2}+y^{2}+z^{2})$, by mapping $t$ to $[1/2(1/t-t);1;i/2(1/t+t)]$, which is an isomorphism, and the responding involution on $CP_{2}/(x^{2}+y^{2}+z^{2})$ is induced just by map $i$ to $-i$. Hence $X_{0}$ is $RP_{2}/(x^{2}+y^{2}+z^{2})$. It's similar if the map of functional field map $t$ to $t^{-1}$.
+\end{enumerate}
+\item 5.8
+\begin{enumerate}
+\item let $\phi(x)\leq n-1$, then let $t_{j}(\ 1\leq j \leq n-1)$  form a basis of $\mathcal{F}_{x}/m\mathcal{F}_{x}$, then choosing $v_{j}$ to be representatives of $t_{j}$. Then $v_{j}$ generates $\mathcal{F}_{x}$ ny nakayama's lemma. Hence $v_{j}$ generates a neighborhood of $\mathcal{F}$, because $\mathcal{F}$ is coherent, hence $\phi(x)\leq n-1$ locally holds.
+\item if $\mathcal{F}$ is locally free, then $\phi$ is locally constant and hence continuous, hence it is constant.
+\item Assume $X=Spec A$ with $A$ a reduced notherian local ring. Let $p_{i}$ be minimal prime ideals of $A$. Ny nakayama Lemma, we can find a exact sequence:
+
+  \begin{displaymath}
+    0\to R \to A^{n} \to M \to 0
+  \end{displaymath}
+
+With $n=\phi(x)$.
+
+Then localize it at $p_{i}$, we get $R_{p_{i}}=0$ for all $i$. 
+
+Thus for every $q$ with height 2, we have 
+\begin{displaymath}
+    0\to R_{q} \to A^{n}_{q} \to M_{q} \to 0
+  \end{displaymath}
+\end{enumerate}
+
+If $R_{q} \neq 0$, then $Supp(R_{q})=Ass(R_{q})=q=Ann(R_{q})$. Hence $qR_{q}=0$. So $R_{q}=0$.Contradiction!
+
+Hence $R_{q}=0$ for all height 2 ideal. And with induction, we can prove it holds for all finite height prime ideal. And $m$ has finite height, so $R=0$. So $M$is free.
+\item 3.19
+First we reduce $X$ and $Y$ to affine scheme. In fact, let $Y_{i}$ be an affine cover of $Y$, and $X_{ij}$ be an affine cover of $X$, then the image of constructable set $D$ is the union of image $D\cap X_{ij}$, hence we reduce $X$ and $Y$ to be affine. And more we can assume $X$ and $Y$ to be reduced since it will not change the topology.
+
+Assume $X=Spec B$, $Y=Spec H$. Next we reduce to prove that the image of $X$ is constructable. In fact, we only need to prove the image of open set and closed set is constructable. For a closed set, we consider it as a closed immersion, then image of a scheme is got via the map of closed immersion and $f$. And for open set, we can cover it by finite $D(f)$, and only prove  its image to be constructable. 
+
+
+Now we prove this result by noethrian induction, i.e. if for every closed subscheme $T $of closed subeset $Y_{0}\subset Y$, chevalley holds for $Y_{0}$.
+Let $Y_{0}=Spec S$. First, we can assume the map is dominant, i.e. the ring morphism is injective. In fact the ring morphism $S \to S/ker(f^{*}) \to B$ factors through $S/ker(f^{*})$, so we only need to prove the image of $f$ in $Spec(S/ker(f^{*}))$ is constructable.
+
+Using the algebra result for $b=1$, then for any prime idea $a \notin p$, considerthe map from $B$ to the algebraic closure of $k(p)$, which extends to a homomorphism of $B$ which not vanish at 1. Hence it's kernel form a prime ideal, which restrict to $p$ on $S$.
+
+Thus by removing $D(a)$, and the inverse image of $D(a)$, we can use the induction for $Y_{0}-D(a)$, and got the result.
+
+And the map from $Spec\ k[x,y,z]/(z(xy-1))$ to $Spec\  k[x,z]$ is neither open nor closed.
+\item 3.11(b)
+
+Let $\alpha$ be the sheaf of ideals $I$ of kernel $\O_{X} \to i^{*}\O_{y}$. Then by 5.8 we have $i^{*}\O_{y}$ is quasi-coherent and $I$ is also quasi-coherent. Thus we can consider the sheaf $\O_{X}/I$ on $Y_{0}= Supp(I)$. Then it's easy to verify that $Y_{0}$ forms a  closed subscheme and the map from $Y$ to $Y_{0}$ is acturally an isomorphism.
+
+(a) It is a local question for $X$ and $X'$. Hence we assume $X=Spec A$, $Y=Spec(A/I)$, $X'=Spec(B)$. Then the result is induced by the fact that torsion functor is right exact.
+
+(c) We define the sheaf of ideals $I_{U}$, to be the set of fuctions that never vanish on any residue field of points of $U$. Then $U$ is a radical ideal, and thus $\O /I$ has a reduced scheme structure on $Y$. And for any other closed subschemes $Y'$, the ideal sheaf $I_{Y'}$ is contained in $I$, So we have the ideal morphism $\O/I_{Y'}\to O/I $ which induce a map from $Y$ to $Y'$
+
+(d)Let $I=ker(\O_{x} \to f^{*}\O_{y})$, then the quotient ring of $I$ will induce a closed subscheme, which is the threoetic image of $f$.
+
+\item Chow's Lemma
+  \begin{itemize}
+  \item (a) By using the valuation criterion, we now that the irreducible component are proper over the original scheme and hence proper over $S$. And thus we can reduce to the situation  that $X$ is irreducible.
+\item(b) Notice that any finite type $A_{i}$ algebra can be regarded as a closed variety of $A_{i}^{n}$ and hence a quasi-projective variety $P^{n}$, hence we can deal with the conclusion locally and generates those quasi-projective variety by finite-type $A_{i}$ algebra while $SpecA_{i}$ are open affine covers of $S$.
+\item (c). Consider $W_{i}=g^{-1}(U_{i})$, here we denote $g$ the projection from $X'$ to $P_{i}$. Then we prove it's an open cover of $X'$. To do this, we only need to show that $f^{-1}(U_{i})\subset W_{i}$. Here $f$ is the map from $X'$ to $X$ . This follows from the fact that $P=\prod P_{i}$ is seperated over $S$, and hence the diagram $U_{i}\to U_{i}\times_{S}P_ {i}$ is a closed immersion. In fact, consider the projection $z_{i}$ from $U_{i}\times P\to U_{i}\times P_{i}$, Then the image of $W_{i}$ in $U_{i}\times P_{i}$ is contained in the closure of the image of $z_{i}\cdot f$, hence also contained in the  graph of $U_{i}$ in $U_{i}\times P_{i}$, which is closed immersion since $P_{i}$ is seperated over $S$. Notice that the image of $X'$ in $g$ is closed by the propereness of $X$, then we only need to prove that for $V_{i}=p_{i}^{-1}(U_{i})$, the map $g: W_{i}\to V_{i}$ is closed immersion. 
+
+Here we consider the projection map form $V_{i}$ to $X$ through the projection of $U_{i}$.Then $V_{i}$ is a closed subscheme of $V_{i}\times X$, hence we only need to prove the map from $W_{i}$ to $V\times X_{i}$ is a closed. But in fact, it is just the closed inclusion from $W_{i}$ to $V \times X_{i}$. S we prove this lemma.
+
+
+Now we prove that $g^{-1}(U)=U$, but here we can assume $X=U$ and just check the map form $U$ to $U\times P$ is a closed immersion, which is guranteed by the seperated property of $X$.
+
+
+
+   \end{itemize}
+\end{itemize}
+
+
+
+\end{document}
+
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
