@@ -1,0 +1,24 @@
+#+title: Construction of Hilbert Schemes and Quot Schemes
+#+author: Yu Zhao
+# We need fancyhdr to generate the header and amsmath to typeset certain math symbols
+#+LATEX_HEADER: \usepackage{fancyhdr}
+#+LATEX_HEADER: \usepackage{amsmath,amsthm,amssymb}
+#+LATEX_HEADER: \usepackage{tikz}
+# Don't export table of contents. 
+#+OPTIONS: toc:nil
+# Don't make a title page.
+# Don't do automatic section numbering, as they will not correspond with problem
+#    numbers from the book
+#+LATEX: \setcounter{secnumdepth}{-1}
+
+* Intuition
+
+Our purpose is to moduli all the closed subschemes of $X=P^{n}$ , i.e. all the ideal sheaves of $$  
+* A categorial description of Hilbert Schemes
+** 
+** Why this embedding is a closed embedding?
+
+ 
+  
+  
+  

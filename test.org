@@ -1,0 +1,21 @@
+
+#+title: Homework Sample Template
+#+author: Yu Zhao
+* Homework Sample Template
+  $\newcommand{\N}{\mathbb{N}}$
+  $\newcommand{\Z}{\mathbb{Z}}$
+  $\newcommand{\Q}{\mathbb{Q}}$
+  $\newcommand{\R}{\mathbb{R}}$
+  $\newcommand{\C}{\mathbb{C}}$
+  $\renewcommand{\O}{\mathcal{O}}$ 
+  
+  
+$\O$
+$\begin{xy}
+\xymatrix {
+U \ar@/_{/[ddr]_{y \ar@{.>}[dr]|{\langle x,y \rangle} \ar@/^{/[drr]^{x \\
+ & X \times_{Z Y \ar[d]^{q \ar[r]_{p & X \ar[d]_{f \\
+ & Y \ar[r]^{g & Z
+}
+\end{xy}}}}}}}}}
+}$

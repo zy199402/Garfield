@@ -1,0 +1,25 @@
+#+title: Some Basic Results About Algebraic Surfaces
+#+author: Yu Zhao
+# We need fancyhdr to generate the header and amsmath to typeset certain math symbols
+#+LATEX_HEADER: \usepackage{fancyhdr}
+#+LATEX_HEADER: \usepackage{amsmath,amsthm,amssymb}
+#+LATEX_HEADER: \usepackage{tikz}
+# Don't export table of contents. 
+#+OPTIONS: toc:nil
+# Don't make a title page.
+# Don't do automatic section numbering, as they will not correspond with problem
+#    numbers from the book
+#+LATEX: \setcounter{secnumdepth}{-1}
+
+* Riemann Roch Theorem
+
+$03
+l(D)-s(D)+l(K-D)=1/2 D\cdot(D-K)+1+p_{a}$
+
+
+Proof: By the caculation on sheaves   
+* Hodge Index Theorem
+
+$H$ ample, $D \neq 0$, $D\cdot H=0$, then $D^{2}<0$
+  
+  xf

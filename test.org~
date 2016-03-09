@@ -1,0 +1,13 @@
+#+title: Homework Sample Template
+#+author: Yu Zhao
+#+DATE: 
+* Homework Sample Template
+  $\newcommand{\N}{\mathbb{N}}$
+  $\newcommand{\Z}{\mathbb{Z}}$
+  $\newcommand{\Q}{\mathbb{Q}}$
+  $\newcommand{\R}{\mathbb{R}}$
+  $\newcommand{\C}{\mathbb{C}}$
+  $\renewcommand{\O}{\mathcal{O}}$ 
+  
+  
+$\O$

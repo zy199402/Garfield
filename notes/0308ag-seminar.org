@@ -1,0 +1,21 @@
+#+title: Modulization of Fano Varities 
+#+author: 
+# We need fancyhdr to generate the header and amsmath to typeset certain math symbols
+#+LATEX_HEADER: \usepackage{fancyhdr}
+#+LATEX_HEADER: \usepackage{amsmath,amsthm,amssymb}
+#+LATEX_HEADER: \usepackage{tikz}
+# Don't export table of contents. 
+#+OPTIONS: toc:nil
+# Don't make a title page.
+# Don't do automatic section numbering, as they will not correspond with problem
+#    numbers from the book
+#+LATEX: \setcounter{secnumdepth}{-1}
+
+* Definition of Fano Varieties
+A Fano manoifold is $X$ a smooth proj variety s.t. $\omega_{X}^{-1}$ ample
+  dim 2 example. P2 P1*P1 P2 blow up up to 8 points.
+
+* Key stability K-stability (highly denpend on analysis)
+  
+  
+  

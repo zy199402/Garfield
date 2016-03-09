@@ -1,0 +1,256 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=prv_hil 2016.3.6)  6 MAR 2016 17:45
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**&prv_hil _region_.tex
+(./_region_.tex
+LaTeX2e <2014/05/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+CUSTOMISED FORMAT. Preloaded files:
+        .
+ article.cls    2014/09/29 v1.4h Standard LaTeX document class
+  size12.clo    2014/09/29 v1.4h Standard LaTeX file (size option)
+geometry.sty    2010/09/12 v5.6 Page Geometry
+  keyval.sty    2014/10/28 v1.15 key=value parser (DPC)
+   ifpdf.sty    2011/01/30 v2.3 Provides the ifpdf switch (HO)
+  ifvtex.sty    2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+ ifxetex.sty    2010/09/12 v0.6 Provides ifxetex conditional
+ amsmath.sty    2013/01/14 v2.14 AMS math features
+ amstext.sty    2000/06/29 v2.01
+  amsgen.sty    1999/11/30 v2.0
+  amsbsy.sty    1999/11/29 v1.2d
+  amsopn.sty    1999/12/14 v2.01 operator names
+  amsthm.sty    2009/07/02 v2.20.1
+ amssymb.sty    2013/01/14 v3.01 AMS font symbols
+amsfonts.sty    2013/01/14 v3.01 Basic AMSFonts support
+ tikz-cd.sty    2014/10/30 v0.9e Commutative diagrams with tikz
+    tikz.sty    2013/12/13 v3.0.0 (rcs-revision 1.142)
+     pgf.sty    2013/12/18 v3.0.0 (rcs-revision 1.14)
+  pgfrcs.sty    2013/12/20 v3.0.0 (rcs-revision 1.28)
+everyshi.sty    2001/05/15 v3.00 EveryShipout Package (MS)
+  pgfrcs.code.tex
+ pgfcore.sty    2010/04/11 v3.0.0 (rcs-revision 1.7)
+graphicx.sty    2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+graphics.sty    2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+    trig.sty    1999/03/16 v1.09 sin cos tan (DPC)
+graphics.cfg    2010/04/23 v1.9 graphics configuration of TeX Live
+  pdftex.def    2011/05/27 v0.06d Graphics/color for pdfTeX
+infwarerr.sty    2010/04/08 v1.3 Providing info/warning/error messages (HO)
+ ltxcmds.sty    2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+  pgfsys.sty    2013/11/30 v3.0.0 (rcs-revision 1.47)
+  pgfsys.code.tex
+pgfsyssoftpath.code.tex    2013/09/09  (rcs-revision 1.9)
+pgfsysprotocol.code.tex    2006/10/16  (rcs-revision 1.4)
+  xcolor.sty    2007/01/21 v2.11 LaTeX color extensions (UK)
+   color.cfg    2007/01/18 v1.5 color configuration of teTeX/TeXLive
+ pgfcore.code.tex
+pgfcomp-version-0-65.sty    2007/07/03 v3.0.0 (rcs-revision 1.7)
+pgfcomp-version-1-18.sty    2007/07/23 v3.0.0 (rcs-revision 1.1)
+  pgffor.sty    2013/12/13 v3.0.0 (rcs-revision 1.25)
+ pgfkeys.sty    
+ pgfkeys.code.tex
+ pgfmath.sty    
+ pgfmath.code.tex
+  pgffor.code.tex
+    tikz.code.tex
+    umsa.fd    2013/01/14 v3.01 AMS symbols A
+    umsb.fd    2013/01/14 v3.01 AMS symbols B
+        .
+No file _region_.aux.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+(/math/home/zy199402/.emacs.d/elpa/auctex-11.89.1/latex/preview.sty
+Package: preview 2010/02/14 11.89 (AUCTeX/preview-latex)
+
+(/math/home/zy199402/.emacs.d/elpa/auctex-11.89.1/latex/prtightpage.def
+\PreviewBorder=\dimen172
+)
+(/math/home/zy199402/.emacs.d/elpa/auctex-11.89.1/latex/prauctex.def
+No auxiliary output files.
+
+
+\hbadness=\count122
+\hfuzz=\dimen173
+(/math/home/zy199402/.emacs.d/elpa/auctex-11.89.1/latex/prauctex.cfg))
+(/math/home/zy199402/.emacs.d/elpa/auctex-11.89.1/latex/prfootnotes.def)
+\pr@snippet=\count123
+\pr@box=\box39
+\pr@output=\toks39
+
+Preview: Fontsize 12pt
+Preview: PDFoutput 1
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+ABD: EveryShipout initializing macros
+(/math/software/pkg/texlive/texlive-2014/texmf-dist/tex/context/base/supp-pdf.m
+kii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count124
+\scratchdimen=\dimen174
+\scratchbox=\box40
+\nofMPsegments=\count125
+\nofMParguments=\count126
+\everyMPshowfont=\toks40
+\MPscratchCnt=\count127
+\MPscratchDim=\dimen175
+\MPnumerator=\count128
+\makeMPintoPDFobject=\count129
+\everyMPtoPDFconversion=\toks41
+)
+(/math/software/pkg/texlive/texlive-2014/texmf-dist/tex/generic/oberdiek/pdftex
+cmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/math/software/pkg/texlive/texlive-2014/texmf-dist/tex/generic/oberdiek/ifluat
+ex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/math/software/pkg/texlive/texlive-2014/texmf-dist/tex/latex/oberdiek/epstopdf
+-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/math/software/pkg/texlive/texlive-2014/texmf-dist/tex/latex/oberdiek/grfext.s
+ty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/math/software/pkg/texlive/texlive-2014/texmf-dist/tex/generic/oberdiek/kvdefi
+nekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/math/software/pkg/texlive/texlive-2014/texmf-dist/tex/latex/oberdiek/kvoption
+s.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/math/software/pkg/texlive/texlive-2014/texmf-dist/tex/generic/oberdiek/kvsetk
+eys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/math/software/pkg/texlive/texlive-2014/texmf-dist/tex/generic/oberdiek/etexcm
+ds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/math/software/pkg/texlive/texlive-2014/texmf-dist/tex/latex/latexconfig/epsto
+pdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))  !name(hil.tex) !offset(-3) 
+! Preview: Snippet 1 started.
+<-><->
+      
+l.42 \section
+             {The simplest case: when $X=P^{n}$ and the base scheme $S=Spec ...
+
+Not a real error.
+
+Preview: Tightpage -32891 -32891 32891 32891
+! Preview: Snippet 1 ended.(2228223+220200x30785865).
+<-><->
+      
+l.42 ...X=P^{n}$ and the base scheme $S=Spec \ k$}
+                                                  
+Not a real error.
+
+[1{/math/software/pkg/texlive/texlive-2014/texmf-var/fonts/map/pdftex/updmap/pd
+ftex.map}
+
+] [1
+
+]
+! Preview: Snippet 2 started.
+<-><->
+      
+l.48 \section
+             {}
+Not a real error.
+
+! Preview: Snippet 2 ended.(729808+0x30785865).
+<-><->
+      
+l.48 \section{}
+               
+Not a real error.
+
+[2
+
+] [2
+
+] ) 
+Here is how much of TeX's memory you used:
+ 831 strings out of 480123
+ 13538 string characters out of 5856477
+ 316434 words of memory out of 5000000
+ 16987 multiletter control sequences out of 15000+600000
+ 14525 words of font info for 56 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 38i,5n,23p,243b,192s stack positions out of 5000i,500n,10000p,200000b,80000s
+</math/software/pkg/texlive/texlive-2014/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmbx12.pfb></math/software/pkg/texlive/texlive-2014/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmmi12.pfb></math/software/pkg/texlive/texlive-2014/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></math/software/pkg/texlive/texl
+ive-2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on _region_.pdf (4 pages, 43038 bytes).
+PDF statistics:
+ 36 PDF objects out of 1000 (max. 8388607)
+ 25 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+

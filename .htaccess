@@ -1,0 +1,4 @@
+AuthName "garfield2016"
+AuthType Basic		
+AuthUserFile /math/home/zy199402/.htpasswd
+Require valid-user
